@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "quickadd"
+  "quickadd",
+  "obsidian-auto-link-title",
+  "obsidian-image-auto-upload-plugin",
+  "obsidian-tasks-plugin"
 ]
