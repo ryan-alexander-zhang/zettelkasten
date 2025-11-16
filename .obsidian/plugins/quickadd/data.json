@@ -5,7 +5,7 @@
       "name": "fleet note",
       "type": "Template",
       "command": true,
-      "templatePath": "templates/fleet-note-template.md",
+      "templatePath": "_templates/fleet-note-template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -35,7 +35,7 @@
       "name": "literature note",
       "type": "Template",
       "command": true,
-      "templatePath": "templates/literature-note-template.md",
+      "templatePath": "_templates/literature-note-template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -65,7 +65,7 @@
       "name": "permanet note",
       "type": "Template",
       "command": true,
-      "templatePath": "templates/permanent-note-template.md",
+      "templatePath": "_templates/permanent-note-template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -93,7 +93,7 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "templates",
+  "templateFolderPath": "_templates",
   "announceUpdates": "all",
   "version": "2.8.0",
   "globalVariables": {},

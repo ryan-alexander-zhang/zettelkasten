@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "71b795422a11023d",
+        "id": "5bae58938feec0eb",
         "type": "tabs",
         "children": [
           {
-            "id": "a1bd0c01e0268bc9",
+            "id": "2ce3cef85496b7bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,12 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1bd0c01e0268bc9",
+  "active": "2ce3cef85496b7bb",
   "lastOpenFiles": [
     "_templates/fleet-note-template.md",
-    "_templates/literature-note-template.md",
-    "_templates/permanent-note-template.md",
     "_templates/daily-note-template.md",
+    "_templates/permanent-note-template.md",
+    "_templates/literature-note-template.md",
     "tasks-board.md",
     "README.md",
     "Daily Review.base",
