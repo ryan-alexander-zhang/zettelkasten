@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a3b7834e6ab57ec9",
+        "id": "71b795422a11023d",
         "type": "tabs",
         "children": [
           {
-            "id": "bc7ffe3c74e3ab27",
+            "id": "a1bd0c01e0268bc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "tasks-board.md",
-                "mode": "source",
-                "source": false
+                "file": "Daily Review.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "tasks-board"
+              "icon": "lucide-table",
+              "title": "Daily Review"
             }
           }
         ]
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tasks-board.md",
+                "file": "Daily Review.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for tasks-board"
+              "title": "Backlinks for Daily Review"
             }
           },
           {
@@ -113,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tasks-board.md",
+                "file": "Daily Review.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from tasks-board"
+              "title": "Outgoing links from Daily Review"
             }
           },
           {
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tasks-board.md",
+                "file": "Daily Review.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tasks-board"
+              "title": "Outline of Daily Review"
             }
           },
           {
@@ -196,14 +195,15 @@
   },
   "active": "679c8b21ff7ac5d4",
   "lastOpenFiles": [
-    "Daily Review.base",
-    "README.md",
     "tasks-board.md",
+    "README.md",
+    "Daily Review.base",
+    "_templates/daily-note-template.md",
     "daily-notes/2025-11-16.md",
+    "todos",
     "2025-11-16.md",
     "fleet-notes/test.md",
     "daily-notes",
-    "_templates/daily-note-template.md",
     "[About.md",
     "dash-board.md",
     "test.md",

@@ -1,19 +1,19 @@
 ## Today
 
-**WIP**
+### WIP
 
 ```tasks
 status.type is IN_PROGRESS
 ```
 
-**High**
+### High
 
 ```tasks
 not done
 priority is above medium
 ```
 
-**None repeated due today**
+### None repeated due today
 
 ```tasks
 ((not done) AND (due before in 1 day)) OR (done on today)
@@ -21,7 +21,7 @@ is not recurring
 sort by priority
 ```
 
-**Repeated due today**
+### Repeated due today
 
 ```tasks
 ((not done) AND (due before in 1 day)) OR (done on today)
@@ -29,7 +29,7 @@ is recurring
 sort by priority
 ```
 
-**Over due before today**
+### Overdue before today
 
 ```tasks
 not done
@@ -37,7 +37,7 @@ due before today
 sort by priority
 ```
 
-**Today complete**
+### Today complete
 
 ```tasks
 done
@@ -46,7 +46,7 @@ done on today
 
 ## Future (no repeat)
 
-**in 1 day**
+### in 1 day
 
 ```tasks
 not done
@@ -56,7 +56,7 @@ sort by priority
 sort by due
 ```
 
-**in 3 day**
+### in 3 days
 
 ```tasks
 not done
@@ -67,7 +67,7 @@ sort by priority
 sort by due
 ```
 
-**in 7 day**
+### in 7 days
 
 ```tasks
 not done
@@ -80,7 +80,7 @@ sort by due
 
 ## Singles Tasks
 
-**in 7d（non project x no repeate）**
+### **in 7d（non project x no repeate）**
 
 ```tasks
 not done
@@ -92,7 +92,7 @@ due after in 7 days
 sort by priority, due
 ```
 
-**none project x no due x no repeat**
+### **none project x no due x no repeat**
 
 ```tasks
 not done
