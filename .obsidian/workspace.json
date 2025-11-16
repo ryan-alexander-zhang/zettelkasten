@@ -11,13 +11,14 @@
             "id": "a1bd0c01e0268bc9",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Daily Review.base",
-                "viewName": "Table"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Daily Review"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Review.base",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Daily Review"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -112,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Review.base",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Daily Review"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -155,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Review.base",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Daily Review"
+              "title": "Outline of README"
             }
           },
           {
@@ -193,12 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "679c8b21ff7ac5d4",
+  "active": "50a4fb1470029efd",
   "lastOpenFiles": [
     "tasks-board.md",
     "README.md",
-    "Daily Review.base",
     "_templates/daily-note-template.md",
+    "Daily Review.base",
     "daily-notes/2025-11-16.md",
     "todos",
     "2025-11-16.md",
