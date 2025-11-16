@@ -1,11 +1,20 @@
+filters:
+  and:
+    - file.folder != "_templates"
+    - file.folder != "daily-notes"
+    - file.folder == "fleet-notes"
+    - file.folder == "literature-notes"
 views:
   - type: table
-    name: Table
+    name: Today
+    filters:
+      and:
+        - file.ctime == "2025-11-16"
     order:
       - file.name
-      - reviewed
       - tags
       - created
+      - status
     sort:
       - property: file.name
         direction: ASC

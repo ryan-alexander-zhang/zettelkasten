@@ -11,14 +11,13 @@
             "id": "2ce3cef85496b7bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "tasks-board.md",
-                "mode": "source",
-                "source": false
+                "file": "Daily Review.base",
+                "viewName": "Today"
               },
-              "icon": "lucide-file",
-              "title": "tasks-board"
+              "icon": "lucide-table",
+              "title": "Daily Review"
             }
           }
         ]
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tasks-board.md",
+                "file": "Daily Review.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for tasks-board"
+              "title": "Backlinks for Daily Review"
             }
           },
           {
@@ -113,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tasks-board.md",
+                "file": "Daily Review.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from tasks-board"
+              "title": "Outgoing links from Daily Review"
             }
           },
           {
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tasks-board.md",
+                "file": "Daily Review.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tasks-board"
+              "title": "Outline of Daily Review"
             }
           },
           {
@@ -196,13 +195,13 @@
   },
   "active": "2ce3cef85496b7bb",
   "lastOpenFiles": [
+    "tasks-board.md",
+    "_templates/literature-note-template.md",
+    "_templates/fleet-note-template.md",
+    "_templates/daily-note-template.md",
     "Daily Review.base",
     "README.md",
-    "tasks-board.md",
-    "_templates/daily-note-template.md",
-    "_templates/fleet-note-template.md",
     "_templates/permanent-note-template.md",
-    "_templates/literature-note-template.md",
     "daily-notes/2025-11-16.md",
     "todos",
     "2025-11-16.md",
