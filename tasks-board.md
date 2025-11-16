@@ -80,7 +80,7 @@ sort by due
 
 ## Singles Tasks
 
-### **in 7d（non project x no repeate）**
+### in 7d(non project x no repeate)
 
 ```tasks
 not done
@@ -92,7 +92,7 @@ due after in 7 days
 sort by priority, due
 ```
 
-### **none project x no due x no repeat**
+### none project x no due x no repeat
 
 ```tasks
 not done
