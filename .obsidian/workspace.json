@@ -191,32 +191,37 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2ce3cef85496b7bb",
+  "active": "50a4fb1470029efd",
   "lastOpenFiles": [
+    "libs/excalidraw/technology-logos.excalidrawlib",
+    "libs/excalidraw/redis-grafana.excalidrawlib",
+    "libs/excalidraw/post-it.excalidrawlib",
+    "libs/excalidraw/it-logos.excalidrawlib",
+    "libs/excalidraw/drwnio.excalidrawlib",
+    "libs/excalidraw/dev_ops.excalidrawlib",
+    "libs/excalidraw/cloud.excalidrawlib",
+    "libs/excalidraw/c4-architecture.excalidrawlib",
+    "libs/excalidraw/architecture-diagram-components.excalidrawlib",
+    "libs/excalidraw",
+    "libs",
     "_templates/daily-note-template.md",
     "_templates/fleet-note-template.md",
     "_templates/literature-note-template.md",
     "_templates/permanent-note-template.md",
     "README.md",
-    "daily-review.base",
     "tasks-board.md",
     "daily-notes/2025-11-16.md",
-    "todos",
     "2025-11-16.md",
     "fleet-notes/test.md",
-    "daily-notes",
     "[About.md",
     "dash-board.md",
     "test.md",
     "fleet-notes/test-fleet.md",
     "literature-notes/README.md",
-    "fleet-notes/README.md",
-    "_templates",
-    "permanent-notes",
-    "literature-notes",
-    "fleet-notes"
+    "fleet-notes/README.md"
   ]
 }
