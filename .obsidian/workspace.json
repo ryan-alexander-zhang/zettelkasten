@@ -11,13 +11,14 @@
             "id": "2ce3cef85496b7bb",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Daily Review.base",
-                "viewName": "Today"
+                "file": "_templates/permanent-note-template.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Daily Review"
+              "icon": "lucide-file",
+              "title": "permanent-note-template"
             }
           }
         ]
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Review.base",
+                "file": "_templates/permanent-note-template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Daily Review"
+              "title": "Backlinks for permanent-note-template"
             }
           },
           {
@@ -112,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Review.base",
+                "file": "_templates/permanent-note-template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Daily Review"
+              "title": "Outgoing links from permanent-note-template"
             }
           },
           {
@@ -155,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Review.base",
+                "file": "_templates/permanent-note-template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Daily Review"
+              "title": "Outline of permanent-note-template"
             }
           },
           {
@@ -195,13 +196,13 @@
   },
   "active": "2ce3cef85496b7bb",
   "lastOpenFiles": [
-    "tasks-board.md",
-    "_templates/literature-note-template.md",
-    "_templates/fleet-note-template.md",
     "_templates/daily-note-template.md",
-    "Daily Review.base",
-    "README.md",
+    "_templates/fleet-note-template.md",
+    "_templates/literature-note-template.md",
     "_templates/permanent-note-template.md",
+    "README.md",
+    "daily-review.base",
+    "tasks-board.md",
     "daily-notes/2025-11-16.md",
     "todos",
     "2025-11-16.md",
