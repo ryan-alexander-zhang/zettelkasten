@@ -3,9 +3,8 @@ tags:
   - fleet-note
 id: 20251117104202
 created: 2025-11-17
+reviewed: false
 status:
-  - pending
-  - done
   - in_progress
 ---
 

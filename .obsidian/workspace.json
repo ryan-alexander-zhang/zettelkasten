@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "484a7ac9bea5b315",
+        "id": "2b1ffca1e16e7434",
         "type": "tabs",
         "children": [
           {
-            "id": "5a3e407b1d0e084e",
+            "id": "8699fd5eb36ecb8c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "fleet-notes/git-push-by-using-token.md",
-                "mode": "source",
-                "source": false
+                "file": "daily-review.base",
+                "viewName": "Today"
               },
-              "icon": "lucide-file",
-              "title": "git-push-by-using-token"
+              "icon": "lucide-table",
+              "title": "daily-review"
             }
           }
         ]
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet-notes/git-push-by-using-token.md",
+                "file": "daily-review.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of git-push-by-using-token"
+              "title": "Outline of daily-review"
             }
           },
           {
@@ -195,19 +194,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5a3e407b1d0e084e",
+  "active": "679c8b21ff7ac5d4",
   "lastOpenFiles": [
+    "tasks-board.md",
     "fleet-notes/fix-git-gpg-not-found-error.md",
     "fleet-notes/git-push-by-using-token.md",
-    "tasks-board.md",
-    "daily-notes/2025-11-17.md",
-    "_templates/literature-note-template.md",
     "daily-review.base",
+    "_templates/permanent-note-template.md",
     "_templates/fleet-note-template.md",
+    "daily-notes/2025-11-17.md",
+    "literature-notes/图解SSL和TLS协议.md",
+    "literature-notes/什么是mTLS.md",
+    "_templates/literature-note-template.md",
     "daily-notes/2025-11-16.md",
     "prompts",
     "README.md",
-    "_templates/permanent-note-template.md",
     "libs/excalidraw/technology-logos.excalidrawlib",
     "libs/excalidraw/redis-grafana.excalidrawlib",
     "libs/excalidraw/post-it.excalidrawlib",
