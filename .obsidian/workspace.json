@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet-notes/fix-git-gpg-not-found-error.md",
+                "file": "fleet-notes/git-push-by-using-token.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fix-git-gpg-not-found-error"
+              "title": "git-push-by-using-token"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet-notes/fix-git-gpg-not-found-error.md",
+                "file": "fleet-notes/git-push-by-using-token.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of fix-git-gpg-not-found-error"
+              "title": "Outline of git-push-by-using-token"
             }
           },
           {
@@ -195,11 +195,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "679c8b21ff7ac5d4",
+  "active": "5a3e407b1d0e084e",
   "lastOpenFiles": [
+    "fleet-notes/fix-git-gpg-not-found-error.md",
+    "fleet-notes/git-push-by-using-token.md",
     "tasks-board.md",
     "daily-notes/2025-11-17.md",
-    "fleet-notes/fix-git-gpg-not-found-error.md",
     "_templates/literature-note-template.md",
     "daily-review.base",
     "_templates/fleet-note-template.md",
