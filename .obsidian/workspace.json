@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "51e05d48d9b6e85f",
+        "id": "216300c2918f9736",
         "type": "tabs",
         "children": [
           {
-            "id": "63c50064657c8b41",
+            "id": "97fc023c194c7011",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-notes/2025-11-16.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-11-16"
+              "title": "New tab"
             }
           }
         ]
@@ -197,9 +193,10 @@
   },
   "active": "50a4fb1470029efd",
   "lastOpenFiles": [
+    "daily-notes/2025-11-17.md",
+    "daily-notes/2025-11-16.md",
     "prompts",
     "README.md",
-    "daily-notes/2025-11-16.md",
     "_templates/permanent-note-template.md",
     "libs/excalidraw/technology-logos.excalidrawlib",
     "libs/excalidraw/redis-grafana.excalidrawlib",
@@ -210,7 +207,6 @@
     "libs/excalidraw/cloud.excalidrawlib",
     "libs/excalidraw/c4-architecture.excalidrawlib",
     "libs/excalidraw/architecture-diagram-components.excalidrawlib",
-    "libs/excalidraw",
     "_templates/daily-note-template.md",
     "_templates/fleet-note-template.md",
     "_templates/literature-note-template.md",
