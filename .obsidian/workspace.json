@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "2b1ffca1e16e7434",
+        "id": "b08baca538b9c475",
         "type": "tabs",
         "children": [
           {
-            "id": "8699fd5eb36ecb8c",
+            "id": "4378b4c6358c54bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "literature-notes/什么是mTLS.md",
-                "mode": "source",
-                "source": false
+                "file": "daily-review.base",
+                "viewName": "Today"
               },
-              "icon": "lucide-file",
-              "title": "什么是mTLS"
+              "icon": "lucide-table",
+              "title": "daily-review"
             }
           }
         ]
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "literature-notes/什么是mTLS.md",
+                "file": "daily-review.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 什么是mTLS"
+              "title": "Outline of daily-review"
             }
           },
           {
@@ -195,19 +194,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8699fd5eb36ecb8c",
+  "active": "4378b4c6358c54bb",
   "lastOpenFiles": [
+    "tasks-board.md",
+    "_templates/daily-note-template.md",
+    "daily-notes/2025-11-16.md",
+    "daily-notes/2025-11-17.md",
     "literature-notes/图解SSL和TLS协议.md",
     "literature-notes/什么是mTLS.md",
-    "fleet-notes/git-push-by-using-token.md",
+    "fleet-notes/certification-authority.md",
     "fleet-notes/fix-git-gpg-not-found-error.md",
-    "daily-review.base",
-    "tasks-board.md",
+    "fleet-notes/git-push-by-using-token.md",
     "_templates/permanent-note-template.md",
-    "_templates/fleet-note-template.md",
-    "daily-notes/2025-11-17.md",
     "_templates/literature-note-template.md",
-    "daily-notes/2025-11-16.md",
+    "_templates/fleet-note-template.md",
+    "daily-review.base",
     "prompts",
     "README.md",
     "libs/excalidraw/technology-logos.excalidrawlib",
@@ -218,7 +219,6 @@
     "libs/excalidraw/dev_ops.excalidrawlib",
     "libs/excalidraw/cloud.excalidrawlib",
     "libs/excalidraw/c4-architecture.excalidrawlib",
-    "_templates/daily-note-template.md",
     "2025-11-16.md",
     "fleet-notes/test.md",
     "[About.md",

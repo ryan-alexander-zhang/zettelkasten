@@ -7,6 +7,7 @@ Status:
   - Pending
   - Done
   - In_progress
+type: permanent-note
 ---
 
 

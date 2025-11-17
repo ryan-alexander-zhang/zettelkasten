@@ -1,11 +1,12 @@
 ---
 tags:
-  - fleet-note
+  - git
 id: 20251117104202
 created: 2025-11-17
 reviewed: false
 status:
   - done
+type: fleet-note
 ---
 
 ```shell

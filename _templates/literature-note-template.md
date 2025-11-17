@@ -8,7 +8,8 @@ Status:
   - Pending
   - Done
   - In_progress
-source: 
+source:
+type: literature-note
 ---
 
 

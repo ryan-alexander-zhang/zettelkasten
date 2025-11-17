@@ -1,6 +1,5 @@
 ---
 tags:
-  - fleet-note
   - git
   - gpg
   - shell
@@ -9,6 +8,7 @@ created: 2025-11-17
 reviewed: false
 status:
   - in_progress
+type: fleet-note
 ---
 需要配置：
 

@@ -12,6 +12,7 @@ views:
     order:
       - file.name
       - status
+      - type
       - reviewed
       - tags
       - created
@@ -22,5 +23,6 @@ views:
         direction: DESC
     columnSize:
       file.name: 197
-      note.created: 164
       note.status: 135
+      note.type: 113
+      note.created: 164
