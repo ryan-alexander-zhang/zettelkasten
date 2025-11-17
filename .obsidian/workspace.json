@@ -11,13 +11,14 @@
             "id": "4378b4c6358c54bb",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "daily-review.base",
-                "viewName": "Today"
+                "file": "fleet-notes/certification-authority.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "daily-review"
+              "icon": "lucide-file",
+              "title": "certification-authority"
             }
           }
         ]
@@ -155,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-review.base",
+                "file": "fleet-notes/certification-authority.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of daily-review"
+              "title": "Outline of certification-authority"
             }
           },
           {
@@ -196,21 +197,21 @@
   },
   "active": "4378b4c6358c54bb",
   "lastOpenFiles": [
+    "fleet-notes/fix-git-gpg-not-found-error.md",
+    "fleet-notes/git-push-by-using-token.md",
+    "literature-notes/什么是mTLS.md",
+    "literature-notes/图解SSL和TLS协议.md",
     "tasks-board.md",
+    "fleet-notes/certification-authority.md",
+    "README.md",
+    "daily-review.base",
     "_templates/daily-note-template.md",
     "daily-notes/2025-11-16.md",
     "daily-notes/2025-11-17.md",
-    "literature-notes/图解SSL和TLS协议.md",
-    "literature-notes/什么是mTLS.md",
-    "fleet-notes/certification-authority.md",
-    "fleet-notes/fix-git-gpg-not-found-error.md",
-    "fleet-notes/git-push-by-using-token.md",
     "_templates/permanent-note-template.md",
     "_templates/literature-note-template.md",
     "_templates/fleet-note-template.md",
-    "daily-review.base",
     "prompts",
-    "README.md",
     "libs/excalidraw/technology-logos.excalidrawlib",
     "libs/excalidraw/redis-grafana.excalidrawlib",
     "libs/excalidraw/post-it.excalidrawlib",
