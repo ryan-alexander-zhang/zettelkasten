@@ -5,12 +5,18 @@ id: 20251117104202
 created: 2025-11-17
 reviewed: false
 status:
-  - in_progress
+  - done
 ---
 
 ```shell
 git remote remove origin
 git remote add origin https://{token}@github.com/{user}/{repo}.git
+```
+
+等同于：
+
+```shell
+git remote set-url origin https://{token}@github.com/{user}/{repo}.git
 ```
 
 # References

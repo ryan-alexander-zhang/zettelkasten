@@ -11,13 +11,14 @@
             "id": "8699fd5eb36ecb8c",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "daily-review.base",
-                "viewName": "Today"
+                "file": "literature-notes/什么是mTLS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "daily-review"
+              "icon": "lucide-file",
+              "title": "什么是mTLS"
             }
           }
         ]
@@ -155,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-review.base",
+                "file": "literature-notes/什么是mTLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of daily-review"
+              "title": "Outline of 什么是mTLS"
             }
           },
           {
@@ -194,17 +195,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "679c8b21ff7ac5d4",
+  "active": "8699fd5eb36ecb8c",
   "lastOpenFiles": [
-    "tasks-board.md",
-    "fleet-notes/fix-git-gpg-not-found-error.md",
+    "literature-notes/图解SSL和TLS协议.md",
+    "literature-notes/什么是mTLS.md",
     "fleet-notes/git-push-by-using-token.md",
+    "fleet-notes/fix-git-gpg-not-found-error.md",
     "daily-review.base",
+    "tasks-board.md",
     "_templates/permanent-note-template.md",
     "_templates/fleet-note-template.md",
     "daily-notes/2025-11-17.md",
-    "literature-notes/图解SSL和TLS协议.md",
-    "literature-notes/什么是mTLS.md",
     "_templates/literature-note-template.md",
     "daily-notes/2025-11-16.md",
     "prompts",
