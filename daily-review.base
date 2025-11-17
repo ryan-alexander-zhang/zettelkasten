@@ -1,7 +1,5 @@
 filters:
-  and:
-    - file.folder != "_templates"
-    - file.folder != "daily-notes"
+  or:
     - file.folder == "fleet-notes"
     - file.folder == "literature-notes"
 views:
@@ -9,12 +7,22 @@ views:
     name: Today
     filters:
       and:
-        - file.ctime == "2025-11-16"
+        - created <= "2025-11-17"
+        - reviewed != true
     order:
       - file.name
+      - status
+      - type
+      - reviewed
       - tags
       - created
-      - status
     sort:
-      - property: file.name
+      - property: status
         direction: ASC
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 197
+      note.status: 135
+      note.type: 113
+      note.created: 164
