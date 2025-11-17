@@ -1,10 +1,8 @@
 ---
 tags:
   - fleet-note
-id:
-  "{ date:YYYYMMDDHHmmss }":
-created:
-  "{ date }":
+id: {{date:YYYYMMDDHHmmss}}
+created: {{date}}
 status:
   - pending
   - done
