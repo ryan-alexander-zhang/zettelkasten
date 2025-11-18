@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "d028887bbea05b33",
+    "type": "split",
+    "children": [
+      {
+        "id": "51e05d48d9b6e85f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63c50064657c8b41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tasks-board.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tasks-board"
+            }
+          },
+          {
+            "id": "95a9c86fe1103f6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleet-notes/certification-authority.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "certification-authority"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e16203b87a74717d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccc0bf794686b785",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50a4fb1470029efd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "95e3b4755357efea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"created\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1611c02c517657e6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2bb18ea3f0905784",
+    "type": "split",
+    "children": [
+      {
+        "id": "94844e075208edca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73b25ab791c39a00",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "f6ea5ad36a716e42",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "887f47db50b28410",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "301f5281b0246228",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3b558498ee5360d0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          },
+          {
+            "id": "679c8b21ff7ac5d4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "95a9c86fe1103f6f",
+  "lastOpenFiles": [
+    "fleet-notes/非对称加密算法.md",
+    "fleet-notes/certification-authority.md",
+    "literature-notes/图解SSL和TLS协议.md",
+    "literature-notes/什么是mTLS.md",
+    "fleet-notes/git-push-by-using-token.md",
+    "fleet-notes/fix-git-gpg-not-found-error.md",
+    "daily-review.base",
+    "conflict-files-obsidian-git.md",
+    "tasks-board.md",
+    "daily-notes/2025-11-17.md",
+    "README.md",
+    "daily-notes/2025-11-16.md",
+    "prompts",
+    "_templates/permanent-note-template.md",
+    "libs/excalidraw/technology-logos.excalidrawlib",
+    "libs/excalidraw/redis-grafana.excalidrawlib",
+    "libs/excalidraw/post-it.excalidrawlib",
+    "libs/excalidraw/it-logos.excalidrawlib",
+    "libs/excalidraw/drwnio.excalidrawlib",
+    "libs/excalidraw/dev_ops.excalidrawlib",
+    "libs/excalidraw/cloud.excalidrawlib",
+    "libs/excalidraw/c4-architecture.excalidrawlib",
+    "_templates/daily-note-template.md",
+    "_templates/fleet-note-template.md",
+    "_templates/literature-note-template.md",
+    "2025-11-16.md",
+    "fleet-notes/test.md",
+    "[About.md",
+    "dash-board.md",
+    "test.md",
+    "fleet-notes/test-fleet.md",
+    "literature-notes/README.md",
+    "fleet-notes/README.md"
+  ]
+}
