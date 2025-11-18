@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "b08baca538b9c475",
+        "id": "51e05d48d9b6e85f",
         "type": "tabs",
         "children": [
           {
-            "id": "4378b4c6358c54bb",
+            "id": "63c50064657c8b41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tasks-board.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tasks-board"
+            }
+          },
+          {
+            "id": "95a9c86fe1103f6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +35,8 @@
               "title": "certification-authority"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet-notes/certification-authority.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of certification-authority"
+              "title": "Outline of README"
             }
           },
           {
@@ -195,23 +210,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4378b4c6358c54bb",
+  "active": "95a9c86fe1103f6f",
   "lastOpenFiles": [
-    "fleet-notes/fix-git-gpg-not-found-error.md",
-    "fleet-notes/git-push-by-using-token.md",
-    "literature-notes/什么是mTLS.md",
-    "literature-notes/图解SSL和TLS协议.md",
-    "tasks-board.md",
+    "fleet-notes/非对称加密算法.md",
     "fleet-notes/certification-authority.md",
-    "README.md",
+    "literature-notes/图解SSL和TLS协议.md",
+    "literature-notes/什么是mTLS.md",
+    "fleet-notes/git-push-by-using-token.md",
+    "fleet-notes/fix-git-gpg-not-found-error.md",
     "daily-review.base",
-    "_templates/daily-note-template.md",
-    "daily-notes/2025-11-16.md",
+    "conflict-files-obsidian-git.md",
+    "tasks-board.md",
     "daily-notes/2025-11-17.md",
-    "_templates/permanent-note-template.md",
-    "_templates/literature-note-template.md",
-    "_templates/fleet-note-template.md",
+    "README.md",
+    "daily-notes/2025-11-16.md",
     "prompts",
+    "_templates/permanent-note-template.md",
     "libs/excalidraw/technology-logos.excalidrawlib",
     "libs/excalidraw/redis-grafana.excalidrawlib",
     "libs/excalidraw/post-it.excalidrawlib",
@@ -220,6 +234,9 @@
     "libs/excalidraw/dev_ops.excalidrawlib",
     "libs/excalidraw/cloud.excalidrawlib",
     "libs/excalidraw/c4-architecture.excalidrawlib",
+    "_templates/daily-note-template.md",
+    "_templates/fleet-note-template.md",
+    "_templates/literature-note-template.md",
     "2025-11-16.md",
     "fleet-notes/test.md",
     "[About.md",
