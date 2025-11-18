@@ -10,7 +10,7 @@
   "ExcludeFiles": "",
   "ChineseEnglishSpace": true,
   "ChineseNumberSpace": true,
-  "EnglishNumberSpace": true,
+  "EnglishNumberSpace": false,
   "ChineseNoSpace": true,
   "QuoteSpace": true,
   "PunctuationSpace": true,
@@ -50,9 +50,9 @@
       "😀|"
     ]
   ],
-  "userSelRuleSettingsOpen": true,
-  "userDelRuleSettingsOpen": true,
-  "userCvtRuleSettingsOpen": true,
+  "userSelRuleSettingsOpen": false,
+  "userDelRuleSettingsOpen": false,
+  "userCvtRuleSettingsOpen": false,
   "StrictModeEnter": false,
   "StrictLineMode": "enter_twice",
   "EnhanceModA": false,
