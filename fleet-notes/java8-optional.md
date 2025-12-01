@@ -1,5 +1,6 @@
 ---
 tags:
+  - java
 id: 20251120145445
 created: 2025-11-20
 reviewed: false

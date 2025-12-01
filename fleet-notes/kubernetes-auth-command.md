@@ -1,8 +1,8 @@
 ---
 tags:
   - kubernetes
-  - cheet-sheet
   - shell
+  - cheat-sheet
 id: 20251119153737
 created: 2025-11-19
 reviewed: false
