@@ -7,7 +7,7 @@ views:
     name: Today
     filters:
       and:
-        - created <= "2025-11-17"
+        - created <= "2025-11-18T00:00:00"
         - reviewed != true
     order:
       - file.name
