@@ -1,5 +1,8 @@
 ---
 tags:
+  - memory
+  - llm
+  - agent
 id: 20251126221131
 created: 2025-11-26
 reviewed: false
