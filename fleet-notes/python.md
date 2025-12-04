@@ -1,6 +1,7 @@
 ---
 tags:
   - cheat-sheet
+  - python
 id: 20251201211225
 created: 2025-12-01
 reviewed: false
@@ -10,13 +11,10 @@ type: fleet-note
 ---
 
 ## **Variable Conventions**
-
 * Lower case.
 * Underscore style.
 * `_` Protected variable.
 * `__` Private variable.
-
-
 ## **Code CheatSheet**
 
 ```python
