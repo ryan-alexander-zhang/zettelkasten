@@ -8,5 +8,7 @@
   "obsidian-excalidraw-plugin",
   "obsidian-icon-folder",
   "obsidian-latex-suite",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "obsidian-style-settings",
+  "dataview"
 ]
