@@ -28,6 +28,7 @@
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
     "done": "multitext",
-    "status": "multitext"
+    "status": "multitext",
+    "last-reviewd": "datetime"
   }
 }

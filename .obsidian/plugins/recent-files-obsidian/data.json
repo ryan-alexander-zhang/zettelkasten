@@ -1,0 +1,100 @@
+{
+  "recentFiles": [
+    {
+      "basename": "idiomatic",
+      "path": "english-word-books/idiomatic.md"
+    },
+    {
+      "basename": "english-word-template",
+      "path": "_templates/english-word-template.md"
+    },
+    {
+      "basename": "fleet-note-template",
+      "path": "_templates/fleet-note-template.md"
+    },
+    {
+      "basename": "obsidian-callouts",
+      "path": "_templates/obsidian-callouts.md"
+    },
+    {
+      "basename": "google-titan-memory",
+      "path": "fleet-notes/google-titan-memory.md"
+    },
+    {
+      "basename": "keycloak-create-client",
+      "path": "fleet-notes/keycloak-create-client.md"
+    },
+    {
+      "basename": "conda-basic-usage",
+      "path": "fleet-notes/conda-basic-usage.md"
+    },
+    {
+      "basename": "sa-token-usage",
+      "path": "fleet-notes/sa-token-usage.md"
+    },
+    {
+      "basename": "curl-download-files",
+      "path": "fleet-notes/curl-download-files.md"
+    },
+    {
+      "basename": "keycloak-install",
+      "path": "fleet-notes/keycloak-install.md"
+    },
+    {
+      "basename": "contract",
+      "path": "fleet-notes/contract.md"
+    },
+    {
+      "basename": "git-submodule",
+      "path": "fleet-notes/git-submodule.md"
+    },
+    {
+      "basename": "git-subtree",
+      "path": "fleet-notes/git-subtree.md"
+    },
+    {
+      "basename": "python",
+      "path": "fleet-notes/python.md"
+    },
+    {
+      "basename": "wave-terminal",
+      "path": "fleet-notes/wave-terminal.md"
+    },
+    {
+      "basename": "open-memory",
+      "path": "fleet-notes/open-memory.md"
+    },
+    {
+      "basename": "cognee",
+      "path": "fleet-notes/cognee.md"
+    },
+    {
+      "basename": "kubernetes-auth-command",
+      "path": "fleet-notes/kubernetes-auth-command.md"
+    },
+    {
+      "basename": "base-conversation",
+      "path": "fleet-notes/base-conversation.md"
+    },
+    {
+      "basename": "shortcut",
+      "path": "fleet-notes/shortcut.md"
+    },
+    {
+      "basename": "x402-gateway",
+      "path": "fleet-notes/x402-gateway.md"
+    },
+    {
+      "basename": "upgrade-spec-kit",
+      "path": "fleet-notes/upgrade-spec-kit.md"
+    },
+    {
+      "basename": "java8-optional",
+      "path": "fleet-notes/java8-optional.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

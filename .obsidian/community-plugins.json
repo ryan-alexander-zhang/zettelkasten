@@ -10,5 +10,7 @@
   "obsidian-latex-suite",
   "obsidian-kanban",
   "obsidian-style-settings",
-  "dataview"
+  "dataview",
+  "recent-files-obsidian",
+  "obsidian-linter"
 ]

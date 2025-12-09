@@ -1,5 +1,7 @@
 ---
 tags:
+  - iam
+  - key-cloak
 id: 20251208102604
 created: 2025-12-08
 reviewed: false
@@ -15,9 +17,10 @@ Step 1: Create the Admin client.
 
 ![image.png](https://images.hnzhrh.com/note/20251208102838621.png)
 
-Step 2: Configure the client authentication.
-You need to add the secret if you have the configured client authentication. For the end-use CLI, you shouldn't set the secret.
+Step 2: Configure Client Authentication.
 
+> [!question] What's the diff between client authentication on and off?
+> You need to add the secret if you have the configured client authentication. For the end-use CLI, you shouldn't set the secret. The keycloak can prove the client is the client by the secret. 
 
 Get the token:
 ```shell
@@ -84,6 +87,8 @@ Decode:
   "email": "erpang@gmail.com"
 }
 ```
+
+
 
 # References
 
