@@ -1,20 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "spec-kit-dev-prompt",
-      "path": "prompts/spec-kit-dev-prompt.md"
+      "basename": "如何构建知识体系",
+      "path": "fleet-notes/如何构建知识体系.md"
     },
     {
-      "basename": "spring-boot-dev-promot",
-      "path": "prompts/spring-boot-dev-promot.md"
+      "basename": "learning-kanban",
+      "path": "learning-kanban.md"
+    },
+    {
+      "basename": "20251210235246-如何提高学习能力？这5本书里有答案-36氪",
+      "path": "to-read/20251210235246-如何提高学习能力？这5本书里有答案-36氪.md"
+    },
+    {
+      "basename": "20251210231439-技术之外我们应该思考什么",
+      "path": "to-read/20251210231439-技术之外我们应该思考什么.md"
+    },
+    {
+      "basename": "20251210220603-Has the cost of building software just dropped 90%?",
+      "path": "to-read/20251210220603-Has the cost of building software just dropped 90%?.md"
+    },
+    {
+      "basename": "to-read-template",
+      "path": "_templates/to-read-template.md"
+    },
+    {
+      "basename": "harbor-oidc-keycloak",
+      "path": "fleet-notes/harbor-oidc-keycloak.md"
+    },
+    {
+      "basename": "open-api-generator-addtional-properties-file",
+      "path": "fleet-notes/open-api-generator-addtional-properties-file.md"
     },
     {
       "basename": "has-the-cost-of-software-just-dropped-90-percent",
       "path": "literature-notes/has-the-cost-of-software-just-dropped-90-percent.md"
     },
     {
+      "basename": "tasks-board",
+      "path": "tasks-board.md"
+    },
+    {
       "basename": "idiomatic",
       "path": "english-word-books/idiomatic.md"
+    },
+    {
+      "basename": "daily-review",
+      "path": "daily-review.base"
+    },
+    {
+      "basename": "spec-kit-dev-prompt",
+      "path": "prompts/spec-kit-dev-prompt.md"
+    },
+    {
+      "basename": "spring-boot-dev-promot",
+      "path": "prompts/spring-boot-dev-promot.md"
     },
     {
       "basename": "english-word-template",
