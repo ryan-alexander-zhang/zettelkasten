@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "okr",
+      "path": "fleet-notes/okr.md"
+    },
+    {
       "basename": "如何构建知识体系",
       "path": "fleet-notes/如何构建知识体系.md"
+    },
+    {
+      "basename": "smart",
+      "path": "fleet-notes/smart.md"
+    },
+    {
+      "basename": "obsidian-callouts",
+      "path": "_templates/obsidian-callouts.md"
+    },
+    {
+      "basename": "fleet-note-template",
+      "path": "_templates/fleet-note-template.md"
     },
     {
       "basename": "learning-kanban",
       "path": "learning-kanban.md"
     },
     {
+      "basename": "idiomatic",
+      "path": "english-word-books/idiomatic.md"
+    },
+    {
       "basename": "20251210235246-如何提高学习能力？这5本书里有答案-36氪",
       "path": "to-read/20251210235246-如何提高学习能力？这5本书里有答案-36氪.md"
+    },
+    {
+      "basename": "20251212081506-What Actually Makes You Senior",
+      "path": "to-read/20251212081506-What Actually Makes You Senior.md"
+    },
+    {
+      "basename": "20251211224746-得物TiDB升级实践",
+      "path": "to-read/20251211224746-得物TiDB升级实践.md"
     },
     {
       "basename": "20251210231439-技术之外我们应该思考什么",
@@ -41,10 +69,6 @@
       "path": "tasks-board.md"
     },
     {
-      "basename": "idiomatic",
-      "path": "english-word-books/idiomatic.md"
-    },
-    {
       "basename": "daily-review",
       "path": "daily-review.base"
     },
@@ -59,14 +83,6 @@
     {
       "basename": "english-word-template",
       "path": "_templates/english-word-template.md"
-    },
-    {
-      "basename": "fleet-note-template",
-      "path": "_templates/fleet-note-template.md"
-    },
-    {
-      "basename": "obsidian-callouts",
-      "path": "_templates/obsidian-callouts.md"
     },
     {
       "basename": "google-titan-memory",
