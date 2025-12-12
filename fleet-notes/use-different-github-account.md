@@ -36,7 +36,7 @@ Add the `gitconfig` file:
 [user]
         signignkey = 857B08F1C095823C
         name = ryan-alexander-zhang
-        email = ryan-alexander-zhang@gmail.com
+        email = ryan.alexander.zhang@gmail.com
 [credential]
         username = ryan-alexander-zhang
 ```
