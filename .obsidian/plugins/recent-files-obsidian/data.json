@@ -1,40 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "如何构建知识体系",
-      "path": "fleet-notes/如何构建知识体系.md"
-    },
-    {
-      "basename": "okr",
-      "path": "fleet-notes/okr.md"
+      "basename": "writing-learning-objective-sop",
+      "path": "sops/writing-learning-objective-sop.md"
     },
     {
       "basename": "bloom's-taxonomy",
       "path": "fleet-notes/bloom's-taxonomy.md"
     },
     {
-      "basename": "idiomatic",
-      "path": "english-word-books/idiomatic.md"
+      "basename": "obsidian-callouts",
+      "path": "_templates/obsidian-callouts.md"
     },
     {
-      "basename": "permanent-note-template",
-      "path": "_templates/permanent-note-template.md"
-    },
-    {
-      "basename": "tasks-board",
-      "path": "tasks-board.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "如何构建知识体系",
+      "path": "fleet-notes/如何构建知识体系.md"
     },
     {
       "basename": "use-different-github-account",
       "path": "fleet-notes/use-different-github-account.md"
     },
     {
+      "basename": "sop-note-template",
+      "path": "_templates/sop-note-template.md"
+    },
+    {
+      "basename": "fleet-note-template",
+      "path": "_templates/fleet-note-template.md"
+    },
+    {
+      "basename": "2025-12-12",
+      "path": "daily-notes/2025-12-12.md"
+    },
+    {
+      "basename": "tasks-board",
+      "path": "tasks-board.md"
+    },
+    {
+      "basename": "learning-kanban",
+      "path": "learning-kanban.md"
+    },
+    {
+      "basename": "daily-review",
+      "path": "daily-review.base"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "weekly-note-template",
+      "path": "_templates/weekly-note-template.md"
+    },
+    {
+      "basename": "daily-note-template",
+      "path": "_templates/daily-note-template.md"
+    },
+    {
+      "basename": "permanent-note-template",
+      "path": "_templates/permanent-note-template.md"
+    },
+    {
+      "basename": "literature-note-template",
+      "path": "_templates/literature-note-template.md"
+    },
+    {
+      "basename": "to-read-template",
+      "path": "_templates/to-read-template.md"
+    },
+    {
+      "basename": "2025-W50",
+      "path": "weekly-notes/2025-W50.md"
+    },
+    {
+      "basename": "english-word-template",
+      "path": "_templates/english-word-template.md"
+    },
+    {
+      "basename": "2025-12-05",
+      "path": "daily-notes/2025-12-05.md"
+    },
+    {
       "basename": "smart",
       "path": "fleet-notes/smart.md"
+    },
+    {
+      "basename": "okr",
+      "path": "fleet-notes/okr.md"
+    },
+    {
+      "basename": "idiomatic",
+      "path": "english-word-books/idiomatic.md"
     },
     {
       "basename": "20251213135313-放弃Canal后，我们用Flink CDC实现了99.99%的数据一致性",
@@ -45,20 +101,8 @@
       "path": "to-read/20251213134542-GitHub Pages 搭建教程 - 少数派, GitHub Pages 搭建教程 - 少数派.md"
     },
     {
-      "basename": "learning-kanban",
-      "path": "learning-kanban.md"
-    },
-    {
       "basename": "20251212222645-异常处理框架设计：全局异常捕获与统一错误码",
       "path": "to-read/20251212222645-异常处理框架设计：全局异常捕获与统一错误码.md"
-    },
-    {
-      "basename": "obsidian-callouts",
-      "path": "_templates/obsidian-callouts.md"
-    },
-    {
-      "basename": "fleet-note-template",
-      "path": "_templates/fleet-note-template.md"
     },
     {
       "basename": "20251210235246-如何提高学习能力？这5本书里有答案-36氪",
@@ -81,10 +125,6 @@
       "path": "to-read/20251210220603-Has the cost of building software just dropped 90%?.md"
     },
     {
-      "basename": "to-read-template",
-      "path": "_templates/to-read-template.md"
-    },
-    {
       "basename": "harbor-oidc-keycloak",
       "path": "fleet-notes/harbor-oidc-keycloak.md"
     },
@@ -97,20 +137,12 @@
       "path": "literature-notes/has-the-cost-of-software-just-dropped-90-percent.md"
     },
     {
-      "basename": "daily-review",
-      "path": "daily-review.base"
-    },
-    {
       "basename": "spec-kit-dev-prompt",
       "path": "prompts/spec-kit-dev-prompt.md"
     },
     {
       "basename": "spring-boot-dev-promot",
       "path": "prompts/spring-boot-dev-promot.md"
-    },
-    {
-      "basename": "english-word-template",
-      "path": "_templates/english-word-template.md"
     },
     {
       "basename": "google-titan-memory",
@@ -167,26 +199,6 @@
     {
       "basename": "kubernetes-auth-command",
       "path": "fleet-notes/kubernetes-auth-command.md"
-    },
-    {
-      "basename": "base-conversation",
-      "path": "fleet-notes/base-conversation.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "fleet-notes/shortcut.md"
-    },
-    {
-      "basename": "x402-gateway",
-      "path": "fleet-notes/x402-gateway.md"
-    },
-    {
-      "basename": "upgrade-spec-kit",
-      "path": "fleet-notes/upgrade-spec-kit.md"
-    },
-    {
-      "basename": "java8-optional",
-      "path": "fleet-notes/java8-optional.md"
     }
   ],
   "omittedPaths": [],

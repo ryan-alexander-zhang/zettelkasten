@@ -1,8 +1,8 @@
 ---
 tags:
   - literature-note
-id: {{date:YYYYMMDDHHmmss}}
-created: {{date}}
+id: <% tp.date.now("YYYYMMDDHHmmss")%>
+created: <% tp.date.now("YYYY-MM-DD HH:mm:ss") %>
 reviewed: false
 Status:
   - Pending

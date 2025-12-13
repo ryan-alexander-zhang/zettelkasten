@@ -29,6 +29,8 @@
     "TQ_show_urgency": "checkbox",
     "done": "multitext",
     "status": "multitext",
-    "last-reviewd": "datetime"
+    "last-reviewd": "datetime",
+    "week_start": "datetime",
+    "week_end": "datetime"
   }
 }
