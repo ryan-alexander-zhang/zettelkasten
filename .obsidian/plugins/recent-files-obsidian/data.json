@@ -1,16 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "okr",
-      "path": "fleet-notes/okr.md"
-    },
-    {
       "basename": "如何构建知识体系",
       "path": "fleet-notes/如何构建知识体系.md"
     },
     {
+      "basename": "okr",
+      "path": "fleet-notes/okr.md"
+    },
+    {
+      "basename": "bloom's-taxonomy",
+      "path": "fleet-notes/bloom's-taxonomy.md"
+    },
+    {
+      "basename": "idiomatic",
+      "path": "english-word-books/idiomatic.md"
+    },
+    {
+      "basename": "permanent-note-template",
+      "path": "_templates/permanent-note-template.md"
+    },
+    {
+      "basename": "tasks-board",
+      "path": "tasks-board.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "use-different-github-account",
+      "path": "fleet-notes/use-different-github-account.md"
+    },
+    {
       "basename": "smart",
       "path": "fleet-notes/smart.md"
+    },
+    {
+      "basename": "20251213135313-放弃Canal后，我们用Flink CDC实现了99.99%的数据一致性",
+      "path": "to-read/20251213135313-放弃Canal后，我们用Flink CDC实现了99.99%的数据一致性.md"
+    },
+    {
+      "basename": "20251213134542-GitHub Pages 搭建教程 - 少数派, GitHub Pages 搭建教程 - 少数派",
+      "path": "to-read/20251213134542-GitHub Pages 搭建教程 - 少数派, GitHub Pages 搭建教程 - 少数派.md"
+    },
+    {
+      "basename": "learning-kanban",
+      "path": "learning-kanban.md"
+    },
+    {
+      "basename": "20251212222645-异常处理框架设计：全局异常捕获与统一错误码",
+      "path": "to-read/20251212222645-异常处理框架设计：全局异常捕获与统一错误码.md"
     },
     {
       "basename": "obsidian-callouts",
@@ -19,14 +59,6 @@
     {
       "basename": "fleet-note-template",
       "path": "_templates/fleet-note-template.md"
-    },
-    {
-      "basename": "learning-kanban",
-      "path": "learning-kanban.md"
-    },
-    {
-      "basename": "idiomatic",
-      "path": "english-word-books/idiomatic.md"
     },
     {
       "basename": "20251210235246-如何提高学习能力？这5本书里有答案-36氪",
@@ -63,10 +95,6 @@
     {
       "basename": "has-the-cost-of-software-just-dropped-90-percent",
       "path": "literature-notes/has-the-cost-of-software-just-dropped-90-percent.md"
-    },
-    {
-      "basename": "tasks-board",
-      "path": "tasks-board.md"
     },
     {
       "basename": "daily-review",
