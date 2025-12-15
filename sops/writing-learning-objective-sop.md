@@ -12,6 +12,8 @@ type: sop-note
 
 > [!TIP] 不要拆超出 5 个的子结构
 
+> [!TIP] 可以先找出 N 个关键词进行了解，将这些关键词用自己通俗的语言讲清楚、讲明白（费曼学习法），建立初步的知识网络
+
 > [!EXAMPLE] LLM Application
 > * 模型与推理策略
 > * 提示词与编排
@@ -20,9 +22,7 @@ type: sop-note
 
 ## Step 3: 对每个模块制定 KR (okr.md)
 
-* O 满足 SMART
-* KR 满足 Bloom's Taxonomy
-> [!TIP] 优先 Apply 级别，项目驱动学习
+> [!TIP] KR 满足 Bloom's Taxonomy, 优先 Apply 级别，项目驱动学习
 
 ## Step 4: 执行并输出 (GTD + Zettelkasten )
 
