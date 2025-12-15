@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-12-15",
+      "path": "daily-notes/2025-12-15.md"
+    },
+    {
+      "basename": "cli-libs-of-go",
+      "path": "fleet-notes/cli-libs-of-go.md"
+    },
+    {
+      "basename": "20251215100420-AI agents are starting to eat SaaS",
+      "path": "to-read/20251215100420-AI agents are starting to eat SaaS.md"
+    },
+    {
+      "basename": "idiomatic",
+      "path": "english-word-books/idiomatic.md"
+    },
+    {
       "basename": "writing-learning-objective-sop",
       "path": "sops/writing-learning-objective-sop.md"
     },
@@ -87,10 +103,6 @@
     {
       "basename": "2025-12-05",
       "path": "daily-notes/2025-12-05.md"
-    },
-    {
-      "basename": "idiomatic",
-      "path": "english-word-books/idiomatic.md"
     },
     {
       "basename": "20251213135313-放弃Canal后，我们用Flink CDC实现了99.99%的数据一致性",
@@ -187,18 +199,6 @@
     {
       "basename": "wave-terminal",
       "path": "fleet-notes/wave-terminal.md"
-    },
-    {
-      "basename": "open-memory",
-      "path": "fleet-notes/open-memory.md"
-    },
-    {
-      "basename": "cognee",
-      "path": "fleet-notes/cognee.md"
-    },
-    {
-      "basename": "kubernetes-auth-command",
-      "path": "fleet-notes/kubernetes-auth-command.md"
     }
   ],
   "omittedPaths": [],
