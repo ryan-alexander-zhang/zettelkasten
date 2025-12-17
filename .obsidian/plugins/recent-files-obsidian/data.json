@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "hive-spec-kit-practice",
+      "path": "fleet-notes/hive-spec-kit-practice.md"
+    },
+    {
+      "basename": "harbor-oidc-keycloak",
+      "path": "fleet-notes/harbor-oidc-keycloak.md"
+    },
+    {
+      "basename": "curl-download-files",
+      "path": "fleet-notes/curl-download-files.md"
+    },
+    {
+      "basename": "2025-12-12",
+      "path": "daily-notes/2025-12-12.md"
+    },
+    {
+      "basename": "2025-12-08",
+      "path": "daily-notes/2025-12-08.md"
+    },
+    {
+      "basename": "github-copilot-custom-instructions",
+      "path": "fleet-notes/github-copilot-custom-instructions.md"
+    },
+    {
+      "basename": "github-copilot-plan-mode",
+      "path": "fleet-notes/github-copilot-plan-mode.md"
+    },
+    {
+      "basename": "github-copilot-reusable-prompts",
+      "path": "fleet-notes/github-copilot-reusable-prompts.md"
+    },
+    {
+      "basename": "folo-rss-reader",
+      "path": "fleet-notes/folo-rss-reader.md"
+    },
+    {
+      "basename": "rime-input-method",
+      "path": "fleet-notes/rime-input-method.md"
+    },
+    {
       "basename": "tasks-board",
       "path": "tasks-board.md"
     },
@@ -77,10 +117,6 @@
       "path": "_templates/fleet-note-template.md"
     },
     {
-      "basename": "2025-12-12",
-      "path": "daily-notes/2025-12-12.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
@@ -149,10 +185,6 @@
       "path": "to-read/20251210220603-Has the cost of building software just dropped 90%?.md"
     },
     {
-      "basename": "harbor-oidc-keycloak",
-      "path": "fleet-notes/harbor-oidc-keycloak.md"
-    },
-    {
       "basename": "open-api-generator-addtional-properties-file",
       "path": "fleet-notes/open-api-generator-addtional-properties-file.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "keycloak-create-client",
       "path": "fleet-notes/keycloak-create-client.md"
-    },
-    {
-      "basename": "conda-basic-usage",
-      "path": "fleet-notes/conda-basic-usage.md"
-    },
-    {
-      "basename": "sa-token-usage",
-      "path": "fleet-notes/sa-token-usage.md"
-    },
-    {
-      "basename": "curl-download-files",
-      "path": "fleet-notes/curl-download-files.md"
-    },
-    {
-      "basename": "keycloak-install",
-      "path": "fleet-notes/keycloak-install.md"
-    },
-    {
-      "basename": "contract",
-      "path": "fleet-notes/contract.md"
-    },
-    {
-      "basename": "git-submodule",
-      "path": "fleet-notes/git-submodule.md"
-    },
-    {
-      "basename": "git-subtree",
-      "path": "fleet-notes/git-subtree.md"
-    },
-    {
-      "basename": "python",
-      "path": "fleet-notes/python.md"
     }
   ],
   "omittedPaths": [],
