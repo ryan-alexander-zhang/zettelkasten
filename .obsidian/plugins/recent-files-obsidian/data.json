@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "vibe-coding",
-      "path": "fleet-notes/vibe-coding.md"
+      "basename": "docker-dhi",
+      "path": "fleet-notes/docker-dhi.md"
     },
     {
       "basename": "obsidian-callouts",
       "path": "_templates/obsidian-callouts.md"
+    },
+    {
+      "basename": "inspiration-kanban",
+      "path": "inspiration-kanban.md"
+    },
+    {
+      "basename": "learning-kanban",
+      "path": "learning-kanban.md"
+    },
+    {
+      "basename": "tasks-board",
+      "path": "tasks-board.md"
+    },
+    {
+      "basename": "2025-12-18",
+      "path": "daily-notes/2025-12-18.md"
+    },
+    {
+      "basename": "2025-12-02",
+      "path": "daily-notes/2025-12-02.md"
+    },
+    {
+      "basename": "2025-12-15",
+      "path": "daily-notes/2025-12-15.md"
+    },
+    {
+      "basename": "vibe-coding",
+      "path": "fleet-notes/vibe-coding.md"
     },
     {
       "basename": "20251217214444-用Kubernetes Operator，将你的专业经验自动标准化！",
@@ -93,14 +121,6 @@
       "path": "fleet-notes/rime-input-method.md"
     },
     {
-      "basename": "tasks-board",
-      "path": "tasks-board.md"
-    },
-    {
-      "basename": "learning-kanban",
-      "path": "learning-kanban.md"
-    },
-    {
       "basename": "daily-review",
       "path": "daily-review.base"
     },
@@ -115,10 +135,6 @@
     {
       "basename": "20251215100420-AI agents are starting to eat SaaS",
       "path": "to-read/20251215100420-AI agents are starting to eat SaaS.md"
-    },
-    {
-      "basename": "2025-12-15",
-      "path": "daily-notes/2025-12-15.md"
     },
     {
       "basename": "idiomatic",
@@ -183,22 +199,6 @@
     {
       "basename": "20251213135313-放弃Canal后，我们用Flink CDC实现了99.99%的数据一致性",
       "path": "to-read/20251213135313-放弃Canal后，我们用Flink CDC实现了99.99%的数据一致性.md"
-    },
-    {
-      "basename": "20251213134542-GitHub Pages 搭建教程 - 少数派, GitHub Pages 搭建教程 - 少数派",
-      "path": "to-read/20251213134542-GitHub Pages 搭建教程 - 少数派, GitHub Pages 搭建教程 - 少数派.md"
-    },
-    {
-      "basename": "20251212222645-异常处理框架设计：全局异常捕获与统一错误码",
-      "path": "to-read/20251212222645-异常处理框架设计：全局异常捕获与统一错误码.md"
-    },
-    {
-      "basename": "20251210235246-如何提高学习能力？这5本书里有答案-36氪",
-      "path": "to-read/20251210235246-如何提高学习能力？这5本书里有答案-36氪.md"
-    },
-    {
-      "basename": "20251212081506-What Actually Makes You Senior",
-      "path": "to-read/20251212081506-What Actually Makes You Senior.md"
     }
   ],
   "omittedPaths": [],
