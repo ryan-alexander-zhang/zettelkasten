@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "vibe-coding",
+      "path": "fleet-notes/vibe-coding.md"
+    },
+    {
+      "basename": "obsidian-callouts",
+      "path": "_templates/obsidian-callouts.md"
+    },
+    {
+      "basename": "20251217214444-用Kubernetes Operator，将你的专业经验自动标准化！",
+      "path": "to-read/20251217214444-用Kubernetes Operator，将你的专业经验自动标准化！.md"
+    },
+    {
+      "basename": "20251217214426-Build multi-step applications and AI workflows with AWS Lambda durable functions",
+      "path": "to-read/20251217214426-Build multi-step applications and AI workflows with AWS Lambda durable functions.md"
+    },
+    {
+      "basename": "20251217214405-State of AI",
+      "path": "to-read/20251217214405-State of AI.md"
+    },
+    {
+      "basename": "20251210220603-Has the cost of building software just dropped 90%?",
+      "path": "to-read/20251210220603-Has the cost of building software just dropped 90%?.md"
+    },
+    {
+      "basename": "20251217213940-How AI Is Transforming Work at Anthropic",
+      "path": "to-read/20251217213940-How AI Is Transforming Work at Anthropic.md"
+    },
+    {
+      "basename": "folo-rss-reader",
+      "path": "fleet-notes/folo-rss-reader.md"
+    },
+    {
+      "basename": "金字塔原理-remember-level",
+      "path": "mind-maps/金字塔原理-remember-level.md"
+    },
+    {
+      "basename": "bloom's-taxonomy",
+      "path": "fleet-notes/bloom's-taxonomy.md"
+    },
+    {
+      "basename": "writing-learning-objective-sop",
+      "path": "sops/writing-learning-objective-sop.md"
+    },
+    {
+      "basename": "writing-learning-objective-prompt",
+      "path": "prompts/writing-learning-objective-prompt.md"
+    },
+    {
+      "basename": "如何构建知识体系",
+      "path": "fleet-notes/如何构建知识体系.md"
+    },
+    {
+      "basename": "cli-libs-of-go",
+      "path": "fleet-notes/cli-libs-of-go.md"
+    },
+    {
+      "basename": "github-copilot-custom-instructions",
+      "path": "fleet-notes/github-copilot-custom-instructions.md"
+    },
+    {
+      "basename": "github-copilot-plan-mode",
+      "path": "fleet-notes/github-copilot-plan-mode.md"
+    },
+    {
+      "basename": "github-copilot-reusable-prompts",
+      "path": "fleet-notes/github-copilot-reusable-prompts.md"
+    },
+    {
       "basename": "hive-spec-kit-practice",
       "path": "fleet-notes/hive-spec-kit-practice.md"
     },
@@ -21,22 +89,6 @@
       "path": "daily-notes/2025-12-08.md"
     },
     {
-      "basename": "github-copilot-custom-instructions",
-      "path": "fleet-notes/github-copilot-custom-instructions.md"
-    },
-    {
-      "basename": "github-copilot-plan-mode",
-      "path": "fleet-notes/github-copilot-plan-mode.md"
-    },
-    {
-      "basename": "github-copilot-reusable-prompts",
-      "path": "fleet-notes/github-copilot-reusable-prompts.md"
-    },
-    {
-      "basename": "folo-rss-reader",
-      "path": "fleet-notes/folo-rss-reader.md"
-    },
-    {
       "basename": "rime-input-method",
       "path": "fleet-notes/rime-input-method.md"
     },
@@ -53,24 +105,12 @@
       "path": "daily-review.base"
     },
     {
-      "basename": "writing-learning-objective-prompt",
-      "path": "prompts/writing-learning-objective-prompt.md"
-    },
-    {
-      "basename": "bloom's-taxonomy",
-      "path": "fleet-notes/bloom's-taxonomy.md"
-    },
-    {
       "basename": "spring-boot-dev-promot",
       "path": "prompts/spring-boot-dev-promot.md"
     },
     {
       "basename": "spec-kit-dev-prompt",
       "path": "prompts/spec-kit-dev-prompt.md"
-    },
-    {
-      "basename": "writing-learning-objective-sop",
-      "path": "sops/writing-learning-objective-sop.md"
     },
     {
       "basename": "20251215100420-AI agents are starting to eat SaaS",
@@ -81,16 +121,8 @@
       "path": "daily-notes/2025-12-15.md"
     },
     {
-      "basename": "cli-libs-of-go",
-      "path": "fleet-notes/cli-libs-of-go.md"
-    },
-    {
       "basename": "idiomatic",
       "path": "english-word-books/idiomatic.md"
-    },
-    {
-      "basename": "如何构建知识体系",
-      "path": "fleet-notes/如何构建知识体系.md"
     },
     {
       "basename": "okr",
@@ -103,10 +135,6 @@
     {
       "basename": "use-different-github-account",
       "path": "fleet-notes/use-different-github-account.md"
-    },
-    {
-      "basename": "obsidian-callouts",
-      "path": "_templates/obsidian-callouts.md"
     },
     {
       "basename": "sop-note-template",
@@ -171,34 +199,6 @@
     {
       "basename": "20251212081506-What Actually Makes You Senior",
       "path": "to-read/20251212081506-What Actually Makes You Senior.md"
-    },
-    {
-      "basename": "20251211224746-得物TiDB升级实践",
-      "path": "to-read/20251211224746-得物TiDB升级实践.md"
-    },
-    {
-      "basename": "20251210231439-技术之外我们应该思考什么",
-      "path": "to-read/20251210231439-技术之外我们应该思考什么.md"
-    },
-    {
-      "basename": "20251210220603-Has the cost of building software just dropped 90%?",
-      "path": "to-read/20251210220603-Has the cost of building software just dropped 90%?.md"
-    },
-    {
-      "basename": "open-api-generator-addtional-properties-file",
-      "path": "fleet-notes/open-api-generator-addtional-properties-file.md"
-    },
-    {
-      "basename": "has-the-cost-of-software-just-dropped-90-percent",
-      "path": "literature-notes/has-the-cost-of-software-just-dropped-90-percent.md"
-    },
-    {
-      "basename": "google-titan-memory",
-      "path": "fleet-notes/google-titan-memory.md"
-    },
-    {
-      "basename": "keycloak-create-client",
-      "path": "fleet-notes/keycloak-create-client.md"
     }
   ],
   "omittedPaths": [],
