@@ -25,5 +25,6 @@ It seems that the LLM model will affect the rules of instructions. It functions 
 * [Using custom instructions to unlock the power of Copilot code review - GitHub Docs](https://docs.github.com/en/copilot/tutorials/use-custom-instructions)
 * [Adding repository custom instructions for GitHub Copilot - GitHub Docs](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions)
 * [Instruction files are not applied in agent mode · Issue #960 · microsoft/copilot-intellij-feedback](https://github.com/microsoft/copilot-intellij-feedback/issues/960)
+* [awesome-copilot/instructions at main · github/awesome-copilot](https://github.com/github/awesome-copilot/tree/main/instructions)
 
 # Link to

@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "obsidian-callouts",
-      "path": "_templates/obsidian-callouts.md"
+      "basename": "ddd-ai-layout",
+      "path": "fleet-notes/ddd-ai-layout.md"
     },
     {
-      "basename": "docker-dhi",
-      "path": "fleet-notes/docker-dhi.md"
+      "basename": "tasks-board",
+      "path": "tasks-board.md"
     },
     {
       "basename": "inspiration-kanban",
@@ -17,8 +17,32 @@
       "path": "learning-kanban.md"
     },
     {
-      "basename": "tasks-board",
-      "path": "tasks-board.md"
+      "basename": "vibe-coding",
+      "path": "fleet-notes/vibe-coding.md"
+    },
+    {
+      "basename": "github-copilot-reusable-prompts",
+      "path": "fleet-notes/github-copilot-reusable-prompts.md"
+    },
+    {
+      "basename": "github-copilot-custom-instructions",
+      "path": "fleet-notes/github-copilot-custom-instructions.md"
+    },
+    {
+      "basename": "github-copilot-plan-mode",
+      "path": "fleet-notes/github-copilot-plan-mode.md"
+    },
+    {
+      "basename": "folo-rss-reader",
+      "path": "fleet-notes/folo-rss-reader.md"
+    },
+    {
+      "basename": "obsidian-callouts",
+      "path": "_templates/obsidian-callouts.md"
+    },
+    {
+      "basename": "docker-dhi",
+      "path": "fleet-notes/docker-dhi.md"
     },
     {
       "basename": "2025-12-18",
@@ -31,10 +55,6 @@
     {
       "basename": "2025-12-15",
       "path": "daily-notes/2025-12-15.md"
-    },
-    {
-      "basename": "vibe-coding",
-      "path": "fleet-notes/vibe-coding.md"
     },
     {
       "basename": "20251217214444-用Kubernetes Operator，将你的专业经验自动标准化！",
@@ -55,10 +75,6 @@
     {
       "basename": "20251217213940-How AI Is Transforming Work at Anthropic",
       "path": "to-read/20251217213940-How AI Is Transforming Work at Anthropic.md"
-    },
-    {
-      "basename": "folo-rss-reader",
-      "path": "fleet-notes/folo-rss-reader.md"
     },
     {
       "basename": "金字塔原理-remember-level",
@@ -83,18 +99,6 @@
     {
       "basename": "cli-libs-of-go",
       "path": "fleet-notes/cli-libs-of-go.md"
-    },
-    {
-      "basename": "github-copilot-custom-instructions",
-      "path": "fleet-notes/github-copilot-custom-instructions.md"
-    },
-    {
-      "basename": "github-copilot-plan-mode",
-      "path": "fleet-notes/github-copilot-plan-mode.md"
-    },
-    {
-      "basename": "github-copilot-reusable-prompts",
-      "path": "fleet-notes/github-copilot-reusable-prompts.md"
     },
     {
       "basename": "hive-spec-kit-practice",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-12-05",
       "path": "daily-notes/2025-12-05.md"
-    },
-    {
-      "basename": "20251213135313-放弃Canal后，我们用Flink CDC实现了99.99%的数据一致性",
-      "path": "to-read/20251213135313-放弃Canal后，我们用Flink CDC实现了99.99%的数据一致性.md"
     }
   ],
   "omittedPaths": [],
