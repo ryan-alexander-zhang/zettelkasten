@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "docker-dhi",
-      "path": "fleet-notes/docker-dhi.md"
-    },
-    {
       "basename": "obsidian-callouts",
       "path": "_templates/obsidian-callouts.md"
+    },
+    {
+      "basename": "docker-dhi",
+      "path": "fleet-notes/docker-dhi.md"
     },
     {
       "basename": "inspiration-kanban",
