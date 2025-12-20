@@ -1,96 +1,6 @@
 {
   "choices": [
     {
-      "id": "81708d4e-af7c-4b61-8648-d6580ee099d5",
-      "name": "fleet note",
-      "type": "Template",
-      "command": true,
-      "templatePath": "_templates/fleet-note-template.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "fleet-notes"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFile": true,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "mode": "default",
-        "focus": true
-      },
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
-      "id": "cfca53db-7247-4a7d-8b81-6a35aeb41b5e",
-      "name": "literature note",
-      "type": "Template",
-      "command": true,
-      "templatePath": "_templates/literature-note-template.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "literature-notes"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFile": true,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "mode": "default",
-        "focus": true
-      },
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
-      "id": "3276620b-760e-4420-8e18-b87868bf29be",
-      "name": "permanet note",
-      "type": "Template",
-      "command": true,
-      "templatePath": "_templates/permanent-note-template.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "permanent-notes"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFile": true,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "mode": "default",
-        "focus": true
-      },
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
       "id": "037dbc31-1a0c-47f9-a235-79b6f33fe0e0",
       "name": "english word",
       "type": "Template",
@@ -121,94 +31,283 @@
       "setFileExistsBehavior": false
     },
     {
-      "id": "255bfe7c-e9af-455b-85b4-04ed8960d1c6",
-      "name": "weekly note",
-      "type": "Template",
+      "id": "1ff4681f-ecef-4984-9aee-640af9bde30b",
+      "name": "extract permanent note",
+      "type": "Capture",
       "command": true,
-      "templatePath": "_templates/weekly-note-template.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{DATE:GGGG-[W]WW}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "weekly-notes"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
       "appendLink": false,
-      "openFile": true,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "mode": "default",
-        "focus": true
-      },
-      "fileExistsMode": "Nothing",
-      "setFileExistsBehavior": false
-    },
-    {
-      "id": "d2137537-3021-4e63-a342-61eb7a6ad9a4",
-      "name": "daily note",
-      "type": "Template",
-      "command": true,
-      "templatePath": "_templates/daily-note-template.md",
-      "fileNameFormat": {
+      "captureTo": "permanent-notes/{{DATE:YYYYMMDDHHmmss}}-{{VALUE:Note Title}}",
+      "captureToActiveFile": false,
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
         "enabled": true,
-        "format": "{{date}}"
+        "createWithTemplate": true,
+        "template": "_templates/permanent-note-template.md"
       },
-      "folder": {
+      "format": {
         "enabled": true,
-        "folders": [
-          "daily-notes"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
+        "format": "{{selected}}"
       },
-      "appendLink": false,
-      "openFile": true,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "mode": "default",
-        "focus": true
-      },
-      "fileExistsMode": "Nothing",
-      "setFileExistsBehavior": false
-    },
-    {
-      "id": "636cf1b8-a91f-4633-ad2d-32e801c312f6",
-      "name": "sop note",
-      "type": "Template",
-      "command": true,
-      "templatePath": "_templates/sop-note-template.md",
-      "fileNameFormat": {
+      "insertAfter": {
         "enabled": false,
-        "format": ""
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
       },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "sops"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
       },
-      "appendLink": false,
-      "openFile": false,
+      "prepend": false,
+      "task": false,
+      "openFile": true,
       "fileOpening": {
-        "location": "tab",
+        "location": "split",
         "direction": "vertical",
         "mode": "default",
         "focus": true
-      },
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      }
+    },
+    {
+      "id": "f47d5576-e1a6-4b97-8e9f-1fcc3ecdf7b7",
+      "name": "callouts",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "callouts",
+        "id": "c1f56553-5d43-4312-ab15-4f9c2c5770f1",
+        "commands": [
+          {
+            "name": "inert-callout",
+            "type": "UserScript",
+            "id": "012a0fe1-5d95-4184-a849-b4b8518b5792",
+            "path": "_scripts/inert-callout.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "f0aa15b5-96c3-48bc-b081-491d06fe4d32",
+      "name": "notes",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "81708d4e-af7c-4b61-8648-d6580ee099d5",
+          "name": "fleet note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "_templates/fleet-note-template.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYYMMDDHHmmss}}-{{value:Note Title}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "fleet-notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "d2137537-3021-4e63-a342-61eb7a6ad9a4",
+          "name": "daily note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "_templates/daily-note-template.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "daily-notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "3276620b-760e-4420-8e18-b87868bf29be",
+          "name": "permanet note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "_templates/permanent-note-template.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYYMMDDHHmmss}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "permanent-notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "dfc0ef9a-bcd1-4604-803d-265a6608de0c",
+          "name": "how-to note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "_templates/how-to-note-template.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYYMMDDHHmmss}}-{{name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "how-to-notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "636cf1b8-a91f-4633-ad2d-32e801c312f6",
+          "name": "sop note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "_templates/sop-note-template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "sops"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "cfca53db-7247-4a7d-8b81-6a35aeb41b5e",
+          "name": "literature note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "_templates/literature-note-template.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYYMMDDHHmmss}}-{{value:Note Title}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "literature-notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "255bfe7c-e9af-455b-85b4-04ed8960d1c6",
+          "name": "weekly note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "_templates/weekly-note-template.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:GGGG-[W]WW}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "weekly-notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": false
+        }
+      ],
+      "collapsed": false
     }
   ],
   "inputPrompt": "single-line",

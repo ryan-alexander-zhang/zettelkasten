@@ -36,5 +36,3 @@ patch:
 * [配置覆写和定制 \| oh-my-rime输入法](https://www.mintimate.cc/zh/guide/configurationOverride.html)
 *  [RIME \| 中州韻輸入法引擎](https://rime.im/)
 * [GitHub - iDvel/rime-ice: Rime 配置：雾凇拼音 \| 长期维护的简体词库](https://github.com/iDvel/rime-ice)
-
-# Link to

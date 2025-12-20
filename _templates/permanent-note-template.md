@@ -8,6 +8,8 @@ Status:
   - Done
   - In_progress
 type: permanent-note
+aliases:
+  - "{{value:Note Title}}"
 ---
 
 

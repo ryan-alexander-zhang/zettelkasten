@@ -10,7 +10,9 @@ Status:
   - In_progress
 source:
 type: literature-note
+aliases:
+  - "{{name}}"
 ---
 
 
-# Link to
+

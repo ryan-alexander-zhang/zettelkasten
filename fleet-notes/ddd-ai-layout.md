@@ -6,8 +6,6 @@ created: 2025-12-19 16:47:44
 reviewed: false
 status:
   - pending
-  - done
-  - in_progress
 type: fleet-note
 ---
 # Layout
