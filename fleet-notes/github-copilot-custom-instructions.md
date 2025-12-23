@@ -13,13 +13,13 @@ type: fleet-note
 ---
 
 
-> [!ERROR] The IDEA looks like it doesn't support the path style custom instructions.
+> [!ERROR] The IDEA appears to lack support for custom path style instructions.
 
 The bug is fixed. Why？
 
 WTF. The LLM model affects the instruction rules. That's weird. Amazing.
 
-It seems that the LLM model will affect the rules of instructions. It functions properly when I switch the model from GPT-4.1 to GPT-5.
+It appears that the LLM model will impact the rules of instruction. It functions properly when I switch the model from GPT-4.1 to GPT-5.
 # References
 
 * [Using custom instructions to unlock the power of Copilot code review - GitHub Docs](https://docs.github.com/en/copilot/tutorials/use-custom-instructions)
