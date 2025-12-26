@@ -17,44 +17,25 @@ aliases:
 ```mermaid
 classDiagram
 
-class Service {
-	<<interface>>
-	+run() void
-}
+class A
+class B
+class C
+class D
+class E
 
-class ServiceImpl {
-	+run() void
-}
-
-class Parent {
-	+hi() void
-}
-
-class Son {
-	+hi(girfriend: Girl) void
-}
-
-class Girl {
-	-name String
-	+legs Leg
-}
-
-class Leg {
-	-length Int
-}
-
-ServiceImpl ..|> Service : implement
-Son --|> Parent : extend
-Son ..> Girl
-Girl *-- "1..*" Leg
+A ..|> B : implements
+C <|-- D : extends
+E *-- C : composition
+E o-- D : aggregation
+A ..> E : uses
 ```
 
-聚合关系: `o--`
+`--` 实线
+`..` 虚线
 
-记忆口诀：
-* 菱形是拥有者
-* 空心聚合 `o--`
-* 实心组合 `*--`
-* 点是实现 `..|>`
-* 线是继承 `--|>`
+- **继承**：`<|--` 三角形，像“is-a”
+- **实现**：`..|>` 虚线 + 三角形，像“接口契约”
+- **组合**：`*--` 星号像“拧死在一起”
+- **聚合**：`o--` 圆圈像“松散装进来”
+- **依赖**：`..>` 虚线箭头像“临时用一下” 
 # References
