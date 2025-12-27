@@ -307,7 +307,7 @@
           "setFileExistsBehavior": false
         }
       ],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "0765abed-6a4e-4525-af22-f185351d1950",
@@ -328,6 +328,36 @@
           }
         ]
       }
+    },
+    {
+      "id": "b8c433af-5f25-4377-a197-32a4d17a74c0",
+      "name": "shortcut note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_templates/shortcut-note-template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value:Note Title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "shortcuts"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "inputPrompt": "single-line",
