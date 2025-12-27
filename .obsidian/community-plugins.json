@@ -16,5 +16,8 @@
   "tag-wrangler",
   "mermaid-tools",
   "calendar",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-footnotes",
+  "obsidian-tidy-footnotes",
+  "auto-note-mover"
 ]

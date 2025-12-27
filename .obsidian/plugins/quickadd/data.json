@@ -307,7 +307,27 @@
           "setFileExistsBehavior": false
         }
       ],
-      "collapsed": false
+      "collapsed": true
+    },
+    {
+      "id": "0765abed-6a4e-4525-af22-f185351d1950",
+      "name": "archive current note",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "archive current note",
+        "id": "3919fdc5-7c80-4f50-a23d-3fdc475e66bb",
+        "commands": [
+          {
+            "name": "archive_current_note",
+            "type": "UserScript",
+            "id": "f5d9a01b-27c4-4085-8570-baf1f5509c7e",
+            "path": "_scripts/archive_current_note.js",
+            "settings": {}
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",

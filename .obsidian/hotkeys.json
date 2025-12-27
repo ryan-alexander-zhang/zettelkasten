@@ -1,3 +1,12 @@
 {
-  "easy-typing-obsidian:easy-typing-paste-without-format": []
+  "easy-typing-obsidian:easy-typing-paste-without-format": [],
+  "obsidian-footnotes:insert-autonumbered-footnote": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "6"
+    }
+  ]
 }

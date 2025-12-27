@@ -31,6 +31,7 @@
     "status": "multitext",
     "last-reviewd": "datetime",
     "week_start": "datetime",
-    "week_end": "datetime"
+    "week_end": "datetime",
+    "archived_at": "datetime"
   }
 }

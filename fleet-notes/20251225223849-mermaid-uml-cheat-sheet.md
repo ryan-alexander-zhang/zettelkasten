@@ -4,7 +4,6 @@ tags:
   - cheat-sheet
 id: 20251225223854
 created: 2025-12-25 22:38:54
-reviewed: false
 status:
   - pending
   - done
