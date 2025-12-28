@@ -1,12 +1,14 @@
 ---
 tags:
   - okr
+  - archived
 id: 20251212081830
 created: 2025-12-12
 reviewed: false
 status:
   - in_progress
 type: fleet-note
+archived_at: 2025-12-28T21:13:01
 ---
 
 使用 SMART 原则 + Bloom's Taxonomy 来制定目标，目标也是需要层级的，怎么去拆解目标也是一个比较重要的问题，可以按照金字塔结构去拆（MECE 原则）

@@ -3,8 +3,8 @@ id: 20251213162205
 created: 2025-12-13 16:22:05
 type: sop-note
 ---
-# Writing Learning Objective 
-## Step 1: 确定满足 SMART 原则的学习目标
+# Writing Learning [[20251228194616-okr|OKR]]
+## Step 1: 确定满足 [[20251228184806-smart|SMART]] 原则的学习目标
 
 > [!EXAMPLE] 在一个月内搭建一个使用 RAG MCP Agent 的 LLM 编程助手应用
 
@@ -22,7 +22,7 @@ type: sop-note
 
 ## Step 3: 对每个模块制定 KR (okr.md)
 
-> [!TIP] KR 满足 Bloom's Taxonomy, 优先 Apply 级别，项目驱动学习
+> [!TIP] KR 满足 [[20251228193159-bloom's-taxonomy|Bloom's Taxonomy]], 优先 Apply 级别，项目驱动学习
 
 ## Step 4: 执行并输出 (GTD + Zettelkasten )
 
@@ -51,7 +51,5 @@ graph TD
   J --> K([结束：沉淀下一轮 SO 模板])
 
 ```
-# References
-* [[okr]]
-* [[bloom's-taxonomy]]
-* [[smart]]
+
+

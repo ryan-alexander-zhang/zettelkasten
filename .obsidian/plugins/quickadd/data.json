@@ -164,7 +164,7 @@
           "templatePath": "_templates/permanent-note-template.md",
           "fileNameFormat": {
             "enabled": true,
-            "format": "{{DATE:YYYYMMDDHHmmss}}"
+            "format": "{{DATE:YYYYMMDDHHmmss}}-{{value:Note Title}}"
           },
           "folder": {
             "enabled": true,
@@ -178,7 +178,7 @@
           "appendLink": false,
           "openFile": true,
           "fileOpening": {
-            "location": "tab",
+            "location": "split",
             "direction": "vertical",
             "mode": "default",
             "focus": true
@@ -304,6 +304,36 @@
             "focus": true
           },
           "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "57db0791-4be3-4b28-835d-b870f027cb42",
+          "name": "cheat sheet note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "_templates/cheat-sheet-template.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYYMMDDHHmmss}}-{{value:Note Title}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "cheat-sheets"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "split",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
           "setFileExistsBehavior": false
         }
       ],

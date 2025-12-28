@@ -1,6 +1,7 @@
 ---
 tags:
   - okr
+  - archived
 id: 20251212082122
 created: 2025-12-12
 reviewed: false
@@ -9,6 +10,7 @@ status:
 type: fleet-note
 aliases:
   - SMART原则
+archived_at: 2025-12-28T19:23:32
 ---
 
 SMART 原则是目标管理中的黄金法则

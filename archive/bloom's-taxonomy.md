@@ -1,5 +1,6 @@
 ---
 tags:
+  - archived
 id: 20251213095050
 created: 2025-12-13
 reviewed: false
@@ -8,6 +9,7 @@ status:
   - done
   - in_progress
 type: fleet-note
+archived_at: 2025-12-28T19:34:03
 ---
 
 > [!TIP] There are two versions of Bloom's Taxonomy; the second version is better suited for writing goals.
@@ -72,5 +74,3 @@ Create a new one or enhance the existing components.
 * [Bloom's Taxonomy (Explained in 3 Minutes)](https://youtu.be/ve-Evb5bGoc?si=jhp9z1jO-fILQyNC)
 * [utica.edu/academic/Assessment/new/Blooms Taxonomy - Best.pdf](https://www.utica.edu/academic/Assessment/new/Blooms%20Taxonomy%20-%20Best.pdf)
 * [utica.edu/academic/Assessment/new/Bloom tx revised combined.pdf](https://www.utica.edu/academic/Assessment/new/Bloom%20tx%20revised%20combined.pdf)
-
-# Link to

@@ -2,6 +2,8 @@
 tags:
   - mermaid
   - cheat-sheet
+  - uml
+  - archived
 id: 20251225223854
 created: 2025-12-25 22:38:54
 status:
@@ -11,6 +13,7 @@ status:
 type: fleet-note
 aliases:
   - mermaid-uml-cheat-sheet
+archived_at: 2025-12-28T11:59:09
 ---
 
 ```mermaid
