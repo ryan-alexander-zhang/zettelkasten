@@ -75,13 +75,29 @@ The most important part is `archetype-metadata.xml` file. Here's an example from
     </fileSets>
 </archetype-descriptor>
 ```
-## Use the Maven Archetype to Generate the Scaffold from Current Project[^3]
+## Use the Maven Archetype to Generate the Scaffold from the Current Project[^3]
+
+### Create the Archetype from the Current Project
 
 ```sh
 mvn archetype:create-from-project
 ```
 
-## Use the Archetype to Create a Project
+Add a configuration flag to exclude specific directories.
+
+```sh
+mvn archetype:create-from-project -Darchetype.properties=./archetype.properties
+```
+
+Here's a demo `archetype.properties`
+
+```properties
+archetype.groupId=com.ryan.ddd  
+archetype.artifactId=ddd-template-archetype  
+archetype.version=0.0.1  
+excludePatterns=**/.idea/**,**/*.iml,**/target/**,**/.DS_Store,**/.data/**
+```
+### Use the Archetype to Create a Project
 
 ```sh
 mvn archetype:generate \  
