@@ -1,15 +1,16 @@
 ---
 tags:
+  - how-to
   - iam
+  - oidc
   - key-cloak
-id: 20251208102604
-created: 2025-12-08
-reviewed: false
+id: 20251229221926
+created: 2025-12-29 22:19:26
 status:
-  - pending
   - done
-  - in_progress
-type: fleet-note
+type: how-to-note
+aliases:
+  - create-keycloak-oidc-client
 ---
 
 
@@ -87,9 +88,3 @@ Decode:
   "email": "erpang@gmail.com"
 }
 ```
-
-
-
-# References
-
-# Link to
