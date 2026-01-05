@@ -8,6 +8,8 @@ status:
   - done
 type: fleet-note
 ---
+Agent 不一定能拉到网页内容，比如 GitHub 的一些 Markdown，建议下载下来手动喂
+
 使用 copilot 试验，GoLand
 
 ## 个人感受
