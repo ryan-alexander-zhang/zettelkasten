@@ -1,6 +1,6 @@
 ---
 tags:
-  - vibe-coding
+  - spec-driven-development
 id: 20251217214913
 created: 2025-12-17 21:49:13
 reviewed: false
@@ -18,7 +18,7 @@ Agent 不一定能拉到网页内容，比如 GitHub 的一些 Markdown，建议
 * 沉淀工程提示词、规则
 * 明确指定代码可编译，可测试的步骤
 * 要有耐心，review 文档、output、code 也是很耗费心力的
-* 一些高级技巧跟编辑器、IDE、插件、模型等等都有关系，相当得坑，可以使用最简单的办法，一套模板替换关键词重复使用
+* 一些高级技巧跟编辑器、IDE、插件、模型等等都有关系，相当得坑，GitHub Copilot 来说 VSCode 的使用体验远好于 IDEA
 
 ## 个人感受
 
