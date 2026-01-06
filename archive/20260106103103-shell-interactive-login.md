@@ -1,6 +1,7 @@
 ---
 tags:
   - shell
+  - archived
 id: 20260106103434
 created: 2026-01-06 10:34:34
 status:
@@ -8,6 +9,7 @@ status:
 type: fleet-note
 aliases:
   - shell-interactive-login
+archived_at: 2026-01-06T20:23:25
 ---
 
 ```shell

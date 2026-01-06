@@ -1,5 +1,6 @@
 ---
 tags:
+  - git
 id: 20251204131252
 created: 2025-12-04
 reviewed: false
