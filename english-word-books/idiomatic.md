@@ -8,8 +8,8 @@ type: word-book
 last-reviewd: 2025-12-08
 ---
 
-| Word       | idiomatic                                                                  |
-| ---------- | ------------------------------------------------------------------------- |
+| Word       | idiomatic                                                                   |
+| ---------- | --------------------------------------------------------------------------- |
 | Vocabulary | [idiomatic](https://www.vocabulary.com/dictionary/idiomatic)                |
 | Pronounce  | [idiomatic](https://youglish.com/pronounce/idiomatic/english)               |
 | Dictionary | [idiomatic](https://www.dictionary.com/browse/idiomatic)                    |
