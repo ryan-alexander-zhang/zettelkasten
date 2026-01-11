@@ -1,12 +1,14 @@
 ---
 tags:
   - math
+  - archived
 id: 20251201212045
 created: 2025-12-01
 reviewed: false
 status:
   - done
 type: fleet-note
+archived_at: 2026-01-10T22:32:39
 ---
 
 B is a base.

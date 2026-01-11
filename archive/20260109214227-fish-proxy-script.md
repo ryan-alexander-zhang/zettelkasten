@@ -2,6 +2,7 @@
 tags:
   - fish
   - shell
+  - archived
 id: 20260109214232
 created: 2026-01-09 21:42:32
 status:
@@ -9,6 +10,7 @@ status:
 type: fleet-note
 aliases:
   - fish-proxy-script
+archived_at: 2026-01-10T22:30:10
 ---
 ```shell
 # >>> Proxy switch >>>
