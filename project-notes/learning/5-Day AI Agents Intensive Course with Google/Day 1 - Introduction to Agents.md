@@ -88,9 +88,9 @@ response = await runner.run_debug(
 url_prefix = get_adk_proxy_url()
 ```
 
-## ADK Multi Agent Demo
+## ADK Multi Agent
 
-### First Multi-agent Demo
+###  Simple Multi-agent
 
 ```python
 import os
@@ -256,6 +256,212 @@ response = await runner.run_debug(
 
 > [!quote]
 > When you have independent tasks, you can run them all at the same time using a `ParallelAgent`. This agent executes all of its sub-agents concurrently, dramatically speeding up the workflow. Once all parallel tasks are complete, you can then pass their combined results to a final 'aggregator' step.
+
+![image.png](https://images.hnzhrh.com/note/20260111210616259.png)
+
+
+```python
+# Tech Researcher: Focuses on AI and ML trends.
+tech_researcher = Agent(
+    name="TechResearcher",
+    model=Gemini(
+        model="gemini-2.5-flash-lite",
+        retry_options=retry_config
+    ),
+    instruction="""Research the latest AI/ML trends. Include 3 key developments,
+the main companies involved, and the potential impact. Keep the report very concise (100 words).""",
+    tools=[google_search],
+    output_key="tech_research",  # The result of this agent will be stored in the session state with this key.
+)
+
+print("✅ tech_researcher created.")
+
+
+# Health Researcher: Focuses on medical breakthroughs.
+health_researcher = Agent(
+    name="HealthResearcher",
+    model=Gemini(
+        model="gemini-2.5-flash-lite",
+        retry_options=retry_config
+    ),
+    instruction="""Research recent medical breakthroughs. Include 3 significant advances,
+their practical applications, and estimated timelines. Keep the report concise (100 words).""",
+    tools=[google_search],
+    output_key="health_research",  # The result will be stored with this key.
+)
+
+print("✅ health_researcher created.")
+
+
+# Finance Researcher: Focuses on fintech trends.
+finance_researcher = Agent(
+    name="FinanceResearcher",
+    model=Gemini(
+        model="gemini-2.5-flash-lite",
+        retry_options=retry_config
+    ),
+    instruction="""Research current fintech trends. Include 3 key trends,
+their market implications, and the future outlook. Keep the report concise (100 words).""",
+    tools=[google_search],
+    output_key="finance_research",  # The result will be stored with this key.
+)
+
+print("✅ finance_researcher created.")
+
+
+# The AggregatorAgent runs *after* the parallel step to synthesize the results.
+aggregator_agent = Agent(
+    name="AggregatorAgent",
+    model=Gemini(
+        model="gemini-2.5-flash-lite",
+        retry_options=retry_config
+    ),
+    # It uses placeholders to inject the outputs from the parallel agents, which are now in the session state.
+    instruction="""Combine these three research findings into a single executive summary:
+
+    **Technology Trends:**
+    {tech_research}
+    
+    **Health Breakthroughs:**
+    {health_research}
+    
+    **Finance Innovations:**
+    {finance_research}
+    
+    Your summary should highlight common themes, surprising connections, and the most important key takeaways from all three reports. The final summary should be around 200 words.""",
+    output_key="executive_summary",  # This will be the final output of the entire system.
+)
+
+print("✅ aggregator_agent created.")
+
+
+# The ParallelAgent runs all its sub-agents simultaneously.
+parallel_research_team = ParallelAgent(
+    name="ParallelResearchTeam",
+    sub_agents=[tech_researcher, health_researcher, finance_researcher],
+)
+
+# This SequentialAgent defines the high-level workflow: run the parallel team first, then run the aggregator.
+root_agent = SequentialAgent(
+    name="ResearchSystem",
+    sub_agents=[parallel_research_team, aggregator_agent],
+)
+
+print("✅ Parallel and Sequential Agents created.")
+
+
+runner = InMemoryRunner(agent=root_agent)
+response = await runner.run_debug(
+    "Run the daily executive briefing on Tech, Health, and Finance"
+)
+```
+
+
+### Loop Workflows - The Refinement Cycle
+
+A LoopAgent [^2] runs sub-agents repeatedly until a specific condition is met or a maximum number of iterations is reached.
+
+![image.png](https://images.hnzhrh.com/note/20260111211944602.png)
+
+```python
+# This agent runs ONCE at the beginning to create the first draft.
+initial_writer_agent = Agent(
+    name="InitialWriterAgent",
+    model=Gemini(
+        model="gemini-2.5-flash-lite",
+        retry_options=retry_config
+    ),
+    instruction="""Based on the user's prompt, write the first draft of a short story (around 100-150 words).
+    Output only the story text, with no introduction or explanation.""",
+    output_key="current_story",  # Stores the first draft in the state.
+)
+
+print("✅ initial_writer_agent created.")
+
+# This agent's only job is to provide feedback or the approval signal. It has no tools.
+critic_agent = Agent(
+    name="CriticAgent",
+    model=Gemini(
+        model="gemini-2.5-flash-lite",
+        retry_options=retry_config
+    ),
+    instruction="""You are a constructive story critic. Review the story provided below.
+    Story: {current_story}
+    
+    Evaluate the story's plot, characters, and pacing.
+    - If the story is well-written and complete, you MUST respond with the exact phrase: "APPROVED"
+    - Otherwise, provide 2-3 specific, actionable suggestions for improvement.""",
+    output_key="critique",  # Stores the feedback in the state.
+)
+
+print("✅ critic_agent created.")
+
+# This is the function that the RefinerAgent will call to exit the loop.
+def exit_loop():
+    """Call this function ONLY when the critique is 'APPROVED', indicating the story is finished and no more changes are needed."""
+    return {"status": "approved", "message": "Story approved. Exiting refinement loop."}
+
+
+print("✅ exit_loop function created.")
+
+
+# This agent refines the story based on critique OR calls the exit_loop function.
+refiner_agent = Agent(
+    name="RefinerAgent",
+    model=Gemini(
+        model="gemini-2.5-flash-lite",
+        retry_options=retry_config
+    ),
+    instruction="""You are a story refiner. You have a story draft and critique.
+    
+    Story Draft: {current_story}
+    Critique: {critique}
+    
+    Your task is to analyze the critique.
+    - IF the critique is EXACTLY "APPROVED", you MUST call the `exit_loop` function and nothing else.
+    - OTHERWISE, rewrite the story draft to fully incorporate the feedback from the critique.""",
+    output_key="current_story",  # It overwrites the story with the new, refined version.
+    tools=[
+        FunctionTool(exit_loop)
+    ],  # The tool is now correctly initialized with the function reference.
+)
+
+print("✅ refiner_agent created.")
+
+
+# The LoopAgent contains the agents that will run repeatedly: Critic -> Refiner.
+story_refinement_loop = LoopAgent(
+    name="StoryRefinementLoop",
+    sub_agents=[critic_agent, refiner_agent],
+    max_iterations=2,  # Prevents infinite loops
+)
+
+# The root agent is a SequentialAgent that defines the overall workflow: Initial Write -> Refinement Loop.
+root_agent = SequentialAgent(
+    name="StoryPipeline",
+    sub_agents=[initial_writer_agent, story_refinement_loop],
+)
+
+print("✅ Loop and Sequential Agents created.")
+
+runner = InMemoryRunner(agent=root_agent)
+response = await runner.run_debug(
+    "Write a short story about a lighthouse keeper who discovers a mysterious, glowing map"
+)
+```
+
+
+### Choose the Right Pattern
+
+![image.png](https://images.hnzhrh.com/note/20260111212713366.png)
+
+| Pattern                    | When to Use                      | Example                    | Key Feature              |
+| -------------------------- | -------------------------------- | -------------------------- | ------------------------ |
+| **LLM-based (sub_agents)** | Dynamic orchestration needed     | Research + Summarize       | LLM decides what to call |
+| **Sequential**             | Order matters, linear pipeline   | Outline → Write → Edit     | Deterministic order      |
+| **Parallel**               | Independent tasks, speed matters | Multi-topic research       | Concurrent execution     |
+| **Loop**                   | Iterative improvement needed     | Writer + Critic refinement | Repeated cycles          |
+
 ## Resources
 * [Introduction to Agents](https://www.kaggle.com/whitepaper-introduction-to-agents)
 * [Day 1a - From Prompt to Action](https://www.kaggle.com/code/kaggle5daysofai/day-1a-from-prompt-to-action)
@@ -271,3 +477,4 @@ response = await runner.run_debug(
 
 
 [^1]: [Agent Development Kit - Sequential Agent](https://google.github.io/adk-docs/agents/workflow-agents/sequential-agents/)
+[^2]: [Agent Development Kit](https://google.github.io/adk-docs/agents/workflow-agents/loop-agents/)
