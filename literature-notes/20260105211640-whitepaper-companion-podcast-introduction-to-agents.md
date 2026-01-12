@@ -185,6 +185,39 @@ PDF 列出 5 位作者：Alan Blount、Antonio Gulli、Shubham Saboo、Michael Z
 
 如果你希望我把这篇文章进一步“压缩成一页可执行清单”，我可以按：**选型问题列表 + 最小可行架构 + 评测集模板 + 观测字段清单 + 安全控制点**输出。
 
+# Card
+
+![ChatGPT Image Jan 12, 2026, 08_15_12 AM.png](https://images.hnzhrh.com/note/ChatGPT%20Image%20Jan%2012%2C%202026%2C%2008_15_12%20AM.png)
+
+
+![ChatGPT Image Jan 12, 2026, 08_15_30 AM.png](https://images.hnzhrh.com/note/ChatGPT%20Image%20Jan%2012%2C%202026%2C%2008_15_30%20AM.png)
+
+
+![ChatGPT Image Jan 12, 2026, 08_15_55 AM.png](https://images.hnzhrh.com/note/ChatGPT%20Image%20Jan%2012%2C%202026%2C%2008_15_55%20AM.png)
+
+
+![ChatGPT Image Jan 12, 2026, 08_16_10 AM.png](https://images.hnzhrh.com/note/ChatGPT%20Image%20Jan%2012%2C%202026%2C%2008_16_10%20AM.png)
+
+
+![ChatGPT Image Jan 12, 2026, 08_16_32 AM.png](https://images.hnzhrh.com/note/ChatGPT%20Image%20Jan%2012%2C%202026%2C%2008_16_32%20AM.png)
+
+
+![ChatGPT Image Jan 12, 2026, 08_16_49 AM.png](https://images.hnzhrh.com/note/ChatGPT%20Image%20Jan%2012%2C%202026%2C%2008_16_49%20AM.png)
+
+![ChatGPT Image Jan 12, 2026, 08_17_16 AM.png](https://images.hnzhrh.com/note/ChatGPT%20Image%20Jan%2012%2C%202026%2C%2008_17_16%20AM.png)
+
+
+![ChatGPT Image Jan 12, 2026, 08_17_32 AM.png](https://images.hnzhrh.com/note/ChatGPT%20Image%20Jan%2012%2C%202026%2C%2008_17_32%20AM.png)
+
+
+![ChatGPT Image Jan 12, 2026, 08_17_50 AM.png](https://images.hnzhrh.com/note/ChatGPT%20Image%20Jan%2012%2C%202026%2C%2008_17_50%20AM.png)
+
+
+![ChatGPT Image Jan 12, 2026, 08_18_04 AM.png](https://images.hnzhrh.com/note/ChatGPT%20Image%20Jan%2012%2C%202026%2C%2008_18_04%20AM.png)
+
+
+
+
 [1]: https://cloud.google.com/transform/ask-octo-making-sense-of-agents "Making sense of AI agents: Google Cloud's Office of the CTO | Google Cloud Blog"
 [2]: https://developers.googleblog.com/building-agents-with-the-adk-and-the-new-interactions-api/ "
             
