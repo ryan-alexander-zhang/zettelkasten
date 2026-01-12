@@ -1,7 +1,3 @@
-filters:
-  or:
-    - file.folder == "fleet-notes"
-    - file.folder == "literature-notes"
 views:
   - type: table
     name: Today
@@ -9,6 +5,9 @@ views:
       and:
         - created <= "2025-12-01T16:57:00"
         - reviewed != true
+        - or:
+            - file.folder == "fleet-notes"
+            - file.folder == "literature-notes"
     order:
       - file.name
       - status
