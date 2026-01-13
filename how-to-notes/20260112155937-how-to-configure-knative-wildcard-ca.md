@@ -4,12 +4,10 @@ tags:
 id: 20260112160022
 created: 2026-01-12 16:00:22
 status:
-  - pending
-  - done
   - in_progress
 type: how-to-note
 aliases:
-  - "how-to-configure-knative-wildcard-ca"
+  - how-to-configure-knative-wildcard-ca
 ---
 
 ## 1) 先把域名和 DNS 规划对
