@@ -10,16 +10,28 @@ type: how-to-note
 aliases:
   - how-to-use-key-cloak
 ---
+# APIs
+## Get Client Token By Secret
 
-## Create a New Admin Account
+```shell
+curl -s \
+  -d "grant_type=client_credentials" \
+  -d "client_id=hive-job" \
+  -d "client_secret=***" \
+  "https://<kc>/realms/<realm>/protocol/openid-connect/token" | jq -r .access_token
+```
 
-Remember to add the `admin` role to the new account.
+## Get Client Token By Username & Password
 
-## Service Client
+```shell
+curl -X POST "https://{base}/realms/{realm}/protocol/openid-connect/token" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "client_id={client id}" \
+  -d "grant_type=password" \
+  -d "username={username}" \
+  -d "password={password}"
+```
 
-1. Create a new client.
-2. Check the `Standard flow` and `Service Account Role`.
-3. 
 
 # References
 * [[20260108151813-how-to-deploy-keycloak|how-to-deploy-keycloak]]
