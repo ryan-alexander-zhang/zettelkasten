@@ -14,6 +14,18 @@ Agent 不一定能拉到网页内容，比如 GitHub 的一些 Markdown，建议
 
 ## 使用总结
 
+1. Patience
+2. Breaking Down
+	1. Requirement
+	2. Feature
+	3. Module & Package
+	4. Workflow
+3. Pass Gate & Constraints
+4. Review
+5. 
+
+
+
 * breaking down 很重要
 * 沉淀工程提示词、规则
 * 明确指定代码可编译，可测试的步骤
