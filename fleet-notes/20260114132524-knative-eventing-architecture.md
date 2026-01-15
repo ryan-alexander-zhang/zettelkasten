@@ -20,6 +20,7 @@ Trigger is a router.
 > Knative Eventing uses standard HTTP POST requests to send and receive events between event producers and sinks. These events conform to the [CloudEvents specifications](https://cloudevents.io/), which enables creating, parsing, sending, and receiving events in any programming language.
 
 
+
 # References
 * [Knative Eventing overview - Knative](https://knative.dev/docs/eventing/)
 * [CloudEvents](https://cloudevents.io/)

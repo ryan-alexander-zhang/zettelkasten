@@ -11,6 +11,6 @@ aliases:
   - how-to-install-kafka-cluster
 ---
 
-
 # References
 * [Strimzi - Apache Kafka on Kubernetes](https://strimzi.io/)
+* [Deploying and Managing (0.49.1)](https://strimzi.io/docs/operators/latest/deploying#deploy-tasks_str)
