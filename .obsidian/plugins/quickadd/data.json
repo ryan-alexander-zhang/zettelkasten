@@ -109,7 +109,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "fleet-notes"
+              "01-fleet-notes"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -169,7 +169,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "permanent-notes"
+              "02-permanent-notes"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -259,7 +259,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "literature-notes"
+              "03-literature-notes"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,

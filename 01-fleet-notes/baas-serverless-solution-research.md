@@ -19,12 +19,6 @@ type: fleet-note
 5. Account & Monitor.
 6. Exposed as an HTTP Service.
 
-## **Prompt**
-
-```shell
-
-```
-
 # References
 * [GitHub - neondatabase/neon: Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.](https://github.com/neondatabase/neon)
 * [PostgREST Documentation](https://postgrest.org/en/stable/index.html)
