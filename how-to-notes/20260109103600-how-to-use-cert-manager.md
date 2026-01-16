@@ -81,6 +81,48 @@ spec:
             key: api-token
 ```
 
+
+## 404 Error
+
+DNS01 方式签发证书失败：
+
+```shell
+kubectl get certificate 
+kubectl describe certificate <name>
+kubectl get certificaterequest
+kubectl get order
+
+output:
+Events:
+  Type     Reason     Age   From                                       Message
+  ----     ------     ----  ----                                       -------
+  Normal   Issuing    50m   cert-manager-certificates-trigger          Issuing certificate as Secret does not exist
+  Normal   Generated  50m   cert-manager-certificates-key-manager      Stored new private key in temporary Secret resource "<url>-f2rlw"
+  Normal   Requested  50m   cert-manager-certificates-request-manager  Created new CertificateRequest resource "<url>-1"
+  Warning  Failed     50m   cert-manager-certificates-issuing          The certificate request has failed to complete and will be retried: Failed to wait for order resource "<url>-1-3410080450" to become ready: order is in "errored" state: Failed to fetch authorization: 404 urn:ietf:params:acme:error:malformed: No such authorization
+```
+
+可以看到 404 错误
+
+查看 Order 和 Certificaterequest
+
+参考官网，这是一个 Let's Encrypt 时序不同步的罕见 Bug：
+[Certbot says no such authorization when trying to authorize domain](https://community.letsencrypt.org/t/certbot-says-no-such-authorization-when-trying-to-authorize-domain/242721)
+
+[Error while trying to renew my cert on FortiGate](https://community.letsencrypt.org/t/error-while-trying-to-renew-my-cert-on-fortigate/209979/2)
+
+这种错误 Cert Manager 不会重试[^2] , 要等 1h 以上。
+
+> [!quote] What happens if issuance fails? Will it be retried?
+> cert-manager will retry a failed issuance except for a few rare edge cases where manual intervention is needed.
+> 
+> If an issuance fails because of a temporary error, it will be retried again with a short exponential backoff (currently 5 seconds to 5 minutes). A temporary error is one that does not result in a failed CertificateRequest.
+> 
+> If the issuance fails with an error that resulted in a failed CertificateRequest, it will be retried with a longer binary exponential backoff (1 hour to 32 hours) to avoid overwhelming external services.
+> 
+> You can always trigger immediate renewal using the cmctl renew command
+
 # References
 
 [^1]: [ACME](https://cert-manager.io/docs/configuration/acme/)
+[^2]: [FAQ](https://cert-manager.io/v1.9-docs/faq/)

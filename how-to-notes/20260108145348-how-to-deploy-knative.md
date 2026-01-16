@@ -163,8 +163,35 @@ spec:
 
 这里有个问题：必须创建一个 kafka-broker-config 到 Broker 的 Namespace 中，如果使用数据面隔离就不能复用 `knative-eventing` namespace 下的 `kafka-broker-config`。
 
-
 Refer to the blog：[Knative Apache Kafka Broker with Isolated Data Plane - Knative](https://knative.dev/blog/articles/kafka-broker-with-isolated-data-plane/#isolated-data-plane)
+
+
+
+# FAQ
+
+## Knative Event Sink HTTPS URL STL Error
+
+```json
+ {
+  "@timestamp": "2026-01-16T09:44:30.119612129Z",
+  "@version": "1",
+  "message": "failed to send event to subscriber context={topics=[knative-broker-test06-default], consumerGroup='knative-trigger-test06-url-trigger-01', reference=uuid: \"4d203cbe-6d9b-46b6-88d1-f68955020e3d\"\nnamespace: \"test06\"\nname: \"url-trigger-01\"\nkind: \"Trigger\"\ngroupVersion: \"eventing.knative.dev/v1\"\n} target=https://<url>",
+  "logger_name": "dev.knative.eventing.kafka.broker.dispatcher.impl.http.WebClientCloudEventSender",
+  "thread_name": "vert.x-eventloop-thread-1",
+  "level": "ERROR",
+  "level_value": 40000,
+  "stack_trace": "javax.net.ssl.SSLHandshakeException: Failed to create SSL connection\n\tat io.vertx.core.net.impl.ChannelProvider$1.userEventTriggered(ChannelProvider.java:136)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeUserEventTriggered(AbstractChannelHandlerContext.java:398)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeUserEventTriggered(AbstractChannelHandlerContext.java:376)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireUserEventTriggered(AbstractChannelHandlerContext.java:368)\n\tat io.netty.handler.ssl.SslHandler.handleUnwrapThrowable(SslHandler.java:1403)\n\tat io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1384)\n\tat io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1428)\n\tat io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:530)\n\tat io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:469)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)\n\tat io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)\n\tat io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\nCaused by: java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty\n\tat java.base/sun.security.validator.PKIXValidator.<init>(PKIXValidator.java:97)\n\tat java.base/sun.security.validator.Validator.getInstance(Validator.java:173)\n\tat java.base/sun.security.ssl.X509TrustManagerImpl.getValidator(X509TrustManagerImpl.java:308)\n\tat java.base/sun.security.ssl.X509TrustManagerImpl.checkTrustedInit(X509TrustManagerImpl.java:183)\n\tat java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:254)\n\tat java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144)\n\tat java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1265)\n\tat java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164)\n\tat java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107)\n\tat java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393)\n\tat java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477)\n\tat java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1273)\n\tat java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260)\n\tat java.base/java.security.AccessController.doPrivileged(AccessController.java:714)\n\tat java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205)\n\tat io.netty.handler.ssl.SslHandler.runDelegatedTasks(SslHandler.java:1695)\n\tat io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1541)\n\tat io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1377)\n\t... 20 common frames omitted\nCaused by: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty\n\tat java.base/java.security.cert.PKIXParameters.setTrustAnchors(PKIXParameters.java:200)\n\tat java.base/java.security.cert.PKIXParameters.<init>(PKIXParameters.java:120)\n\tat java.base/java.security.cert.PKIXBuilderParameters.<init>(PKIXBuilderParameters.java:104)\n\tat java.base/sun.security.validator.PKIXValidator.<init>(PKIXValidator.java:94)\n\t... 37 common frames omitted\n",
+  "context": {},
+  "target": "https://<url>"
+}
+ 
+```
+
+
+
+
+
+
 
 # References
 
