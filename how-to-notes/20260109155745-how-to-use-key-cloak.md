@@ -33,5 +33,14 @@ curl -X POST "https://{base}/realms/{realm}/protocol/openid-connect/token" \
 ```
 
 
+## Token Configure
+
+`Realm settings` -> `Sessions` and `Tokens`
+
+SSO Session Settings:
+* `SSO Session Idle` Refresh token will expire at this time if there's no active action.
+* `SSO Session Max` Refresh token must expire at this time.
+* 
+
 # References
 * [[20260108151813-how-to-deploy-keycloak|how-to-deploy-keycloak]]

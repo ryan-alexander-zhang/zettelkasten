@@ -8,21 +8,50 @@ status:
   - done
 type: fleet-note
 ---
+
+## Outline
+
+## 实践和心得
+
+
+Vibe Coding
+
+1. Patience
+2. Breaking Down
+	1. Requirement & Feature
+	2. Module & Package
+	3. Workflow
+3. Pass Gate & Constraints
+4. Code Quality & Review
+5. Record
+	1. Prompt
+	2. Instructions/Rules
+	3. Package to Skill
+
+[[20260110223331-git|git]] Worktree usage.
+## 个人对 AI Coding 看法
+
+* 打不过得加入
+* 10x 工程师
+* Demo、快速验证想法和市场反应、MVP
+
+带来的潜在风险
+* AI Coding 不稳定，生成开发中带来的时间成本、维护成本可能高于手动开发
+* AI 依赖，能力误判，信息泄露，提示词注入
+
+
+
+
+
+
+
 Agent 不一定能拉到网页内容，比如 GitHub 的一些 Markdown，建议下载下来手动喂
 
 使用 copilot 试验，GoLand
 
 ## 使用总结
 
-1. Patience
-2. Breaking Down
-	1. Requirement
-	2. Feature
-	3. Module & Package
-	4. Workflow
-3. Pass Gate & Constraints
-4. Review
-5. 
+
 
 
 
@@ -31,6 +60,19 @@ Agent 不一定能拉到网页内容，比如 GitHub 的一些 Markdown，建议
 * 明确指定代码可编译，可测试的步骤
 * 要有耐心，review 文档、output、code 也是很耗费心力的
 * 一些高级技巧跟编辑器、IDE、插件、模型等等都有关系，相当得坑，GitHub Copilot 来说 VSCode 的使用体验远好于 IDEA
+
+如何使用 MCP？
+
+一个 Demo：OpenAPI Schema Explorer （[OpenAPI Schema Explorer \| Awesome MCP Servers](https://mcpservers.org/servers/kadykov/mcp-openapi-schema-explorer)）
+
+```markdown
+参考需求文档和Domain文档，完成HarborGateway和他的实现类，需要注意的是，Harbor没有官方的Java SDK，但你可以通过OpenAPI Schema Explorer工具获取需要的接口，如果你发现接口定义有任何问题，需要先修改文档，再修改文档后获取我的同意后再进行实现。
+
+你可以封装对应的客户端供你调用，比如名为HarborClient的客户端，你也可以通过swagger generator生成客户端代码。
+```
+
+![image.png](https://images.hnzhrh.com/note/20260119161756741.png)
+
 
 ## 个人感受
 
@@ -45,7 +87,7 @@ Agent 不一定能拉到网页内容，比如 GitHub 的一些 Markdown，建议
 
 坏处：
 * 降低了 Debug 的能力，没有了 Debug 过程中的附加学习，少了深度思考
-* 提高了风险代码引入的概率
+* 可能提高了风险代码引入的概率
 
 未知：
 * 质量问题，改代码的代价可能大于写代码
