@@ -13,7 +13,6 @@ type: fleet-note
 
 ## 实践和心得
 
-
 Vibe Coding
 
 1. Patience
