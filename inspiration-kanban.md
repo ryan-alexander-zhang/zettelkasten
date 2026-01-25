@@ -6,7 +6,7 @@ kanban-plugin: board
 
 ## Pending
 
-- [ ] Develop a RSS & Newletter Reader 🔺 ⏳ 2025-12-18 ➕ 2025-12-18 📅 2026-01-31
+- [ ] DDD 脚手架+提示词⏫ ⏳ 2026-01-25 📅 2026-02-25
 
 
 ## WIP
@@ -16,6 +16,7 @@ kanban-plugin: board
 ## Done
 
 **Complete**
+- [x] Develop a RSS & Newletter Reader 🔺 ➕ 2025-12-18 ⏳ 2025-12-18 📅 2026-01-31 ✅ 2026-01-25
 
 
 
