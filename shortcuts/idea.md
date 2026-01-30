@@ -15,5 +15,6 @@ aliases:
 | Mac                                                       | Description    | Category | Extra |
 | --------------------------------------------------------- | -------------- | -------- | ----- |
 | <kbd>⌥ Option</kbd> + <kbd>⌘ Command</kbd> + <kbd>F</kbd> | Extract field. | Extract  |       |
+| <kbd>⌃ Control</kbd> + <kbd>D</kbd>                       | Debug          | Run      |       |
 
 [Kbd Generator - Quickly generate kbd tags by keyboard shortcuts](https://kbd.hsuan.xyz/)

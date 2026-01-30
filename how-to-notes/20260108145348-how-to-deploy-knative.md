@@ -140,7 +140,7 @@ metadata:
 手动触发：
 
 ```sh
-kubectl label ns tenant-a eventing.knative.dev/injection=enabled --overwrite
+kubectl label ns <tenant> eventing.knative.dev/injection=enabled --overwrite
 ```
 
 ### Configure Namespaced Kafka Broker [^4]
