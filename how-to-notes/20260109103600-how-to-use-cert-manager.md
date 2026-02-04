@@ -1,6 +1,7 @@
 ---
 tags:
   - how-to
+  - cert-manager
 id: 20260109103620
 created: 2026-01-09 10:36:20
 status:
@@ -81,6 +82,18 @@ spec:
             key: api-token
 ```
 
+## CRD
+
+
+```shell
+# CRD
+kubectl get certificat, certificaterequest -n <ns>
+
+# ACME
+kubectl get order,challenge -n <ns>
+kubectl describe order <order-name> -n <ns>
+kubectl describe challenge <challenge-name> -n <ns>
+```
 
 ## 404 Error
 
